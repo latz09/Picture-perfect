@@ -14,10 +14,11 @@ const Hero = () => {
 				/>
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
-				<div className="grid gap-4 text-center tracking-widest text-gray-200">
+				<div className='grid gap-4 text-center tracking-widest text-gray-200'>
 					<h1 className='text-3xl md:text-6xl font-robotoslab text-white'>{`Picture Perfect Art & Frame`}</h1>
-                    <span className=" text-lg md:text-2xl ">Designing the perfect framing to suit your style and budget</span>
-                    {/* <span className="place-self-end bg-[#FB212F] p-2 text-white">{`(651) 455-7595`}</span> */}
+					<span className=' text-lg md:text-2xl '>
+						Designing the perfect framing to suit your style and budget
+					</span>
 				</div>
 			</div>
 		</div>
