@@ -1,22 +1,22 @@
 export const featuredFraming = [
     {
-        image: '/images/prince.png',
-        title: 'Art',
+        image: '/images/prince.jpg',
+        title: 'Art Work',
         description: ''
     },
     {
-        image: '/images/moss.webp',
+        image: '/images/jersey.jpg',
         title: 'Jerseys',
         description: ''
     },
     {
         image: '/images/newspaper.jpg',
-        title: 'Articles',
+        title: 'Magazines/Newspapers',
         description: ''
     },
     {
-        image: '/images/memories.png',
-        title: 'Memories',
+        image: '/images/memories.jpg',
+        title: 'Memorabilia and more',
         description: ''
     },
 ]

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import hero from '../../public/images/front-of-building.jpg';
 
-const Hero = () => {
+const WelcomeHero = () => {
 	return (
 		<div className='relative w-[100vw] h-[75vh]'>
 			<div className='-z-10'>
@@ -25,4 +25,4 @@ const Hero = () => {
 	);
 };
 
-export default Hero;
+export default WelcomeHero;

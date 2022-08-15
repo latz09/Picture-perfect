@@ -12,12 +12,12 @@ const Navbar = () => {
 				</Link>
 				<span>{`(651) 455-7595`}</span>
 			</div>
-			{/* <div className='flex justify-between'>
+			<div className='flex justify-between'>
 				<span>About us</span>
-				<span>Contact</span>
-				<span>Inspiration</span>
+				<Link href={'/custom-framing'}>Custom Framing</Link>
 				<span>State Capitol</span>
-			</div> */}
+				<span>Contact</span>
+			</div>
 		</div>
 	);
 };
