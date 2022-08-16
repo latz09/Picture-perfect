@@ -9,7 +9,7 @@ const Memorabilia = () => {
 			image={marathon}
 			alt='image of a marathon runners medal framed'
 			imageDescription='Display your accomplishments'
-			linkTitle='LearnMore'
+			linkTitle='Learn More'
 			link='/custom-framing'
 		/>
 	);

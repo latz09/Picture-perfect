@@ -9,7 +9,7 @@ const ArtFraming = () => {
 			image={prince}
 			imageDescription='No Job is too big, as this original of Prince by Garibaldi demonstrates'
             alt='framed painting of Prince'
-			linkTitle='LearnMore'
+			linkTitle='Learn More'
 			link='/custom-framing'
 		/>
 	);
