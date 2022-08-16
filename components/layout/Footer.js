@@ -13,12 +13,12 @@ const Footer = () => {
 					<Link href={'/'}>
 						<span className='cursor-pointer hover:text-gray-800'>Home</span>
 					</Link>
-					<Link href={'/'}>
+					<Link href={'/custom-framing'}>
 						<span className='cursor-pointer hover:text-gray-800'>
 							Custom-Framing
 						</span>
 					</Link>
-					<Link href={'/'}>
+					<Link href={'/contact-us'}>
 						<span className='cursor-pointer hover:text-gray-800'>Contact</span>
 					</Link>
 				</div>

@@ -11,12 +11,12 @@ export const featuredFraming = [
     },
     {
         image: '/images/newspaper.jpg',
-        title: 'Magazines/Newspapers',
+        title: 'Preservation',
         description: ''
     },
     {
         image: '/images/memories.jpg',
-        title: 'Memorabilia and more',
+        title: 'Memorabilia',
         description: ''
     },
 ]
