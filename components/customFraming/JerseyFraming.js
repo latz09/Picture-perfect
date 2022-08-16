@@ -3,7 +3,7 @@ import jersey from '../../public/images/jersey.jpg';
 
 const JerseyFraming = () => {
 	return (
-		<div id='jersey'>
+		
 			<FramingTemplate
 				title='Jersey Framing'
 				link='/'
@@ -13,7 +13,7 @@ const JerseyFraming = () => {
 				alt='A framed Green Bay Packer Jersey'
 				imageDescription='Display your favorite team in style'
 			/>
-		</div>
+		
 	);
 };
 
