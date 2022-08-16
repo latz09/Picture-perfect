@@ -35,7 +35,7 @@ const FramingTemplate = ({
 			<div className='p-20'>
 				<div className='shadow-lg grid gap-2 '>
 					<Image src={image} alt={alt} layout='intrinsic' />
-					<span className='text-center text-sm md:text-base text-gray-500 py-2'>
+					<span className='md:text-center text-sm md:text-base text-gray-500 p-2'>
 						{imageDescription}
 					</span>
 				</div>
