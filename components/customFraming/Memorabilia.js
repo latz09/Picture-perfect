@@ -10,7 +10,7 @@ const Memorabilia = () => {
 			alt='image of a marathon runners medal framed'
 			imageDescription='Display your accomplishments'
 			linkTitle='LearnMore'
-			link='/'
+			link='/custom-framing'
 		/>
 	);
 };

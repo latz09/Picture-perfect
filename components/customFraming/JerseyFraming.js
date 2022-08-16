@@ -6,7 +6,7 @@ const JerseyFraming = () => {
 		
 			<FramingTemplate
 				title='Jersey Framing'
-				link='/'
+				link='/custom-framing'
 				linkTitle='Learn More'
 				heading='Display your favorite team in style'
 				image={jersey}

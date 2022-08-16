@@ -10,7 +10,7 @@ const ArtFraming = () => {
 			imageDescription='No Job is too big, as this original of Prince by Garibaldi demonstrates'
             alt='framed painting of Prince'
 			linkTitle='LearnMore'
-			link='/'
+			link='/custom-framing'
 		/>
 	);
 };
