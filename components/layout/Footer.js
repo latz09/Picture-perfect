@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Hours from '../contact/Hours';
 import ContactInfo from '../contact/ContactInfo';
-import Newsletter from '../contact/Newsletter';
+import Address from '../contact/Address';
 
 const Footer = () => {
 	return (
@@ -18,15 +18,15 @@ const Footer = () => {
 							Custom-Framing
 						</span>
 					</Link>
-					<Link href={'/contact-us'}>
-						<span className='cursor-pointer hover:text-gray-800'>Contact</span>
+					<Link href={'/commercial-services'}>
+						<span className='cursor-pointer hover:text-gray-800'>Commercial</span>
 					</Link>
 				</div>
 				<div className='justify-self-center mt-8'>
 					<ContactInfo />
 				</div>
 			</div>
-			<Newsletter />
+			<Address />
 		</div>
 	);
 };

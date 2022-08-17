@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import About from '../components/about/About';
+import CorporateSection from '../components/corporate/CommercialSection';
 import CustomMade from '../components/customFraming/CustomMade';
 import FeaturedFraming from '../components/featuredFraming/FeaturedFraming';
 import FrameAnythingHero from '../components/heros/FrameAnythingHero';
@@ -18,12 +19,13 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<div className='grid gap-4'>
+			<div className='grid '>
 				<WelcomeHero />
 				<About />
 				<FrameAnythingHero />
 				<FeaturedFraming />
-				<CustomMade />		
+				<CustomMade />	
+				<CorporateSection />	
 			</div>
 		</div>
 	);

@@ -1,5 +1,4 @@
 import { MdKeyboardArrowDown } from 'react-icons/md';
-
 import Image from 'next/image';
 import hero from '../../public/images/custom/colors.jpg';
 
