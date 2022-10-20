@@ -20,12 +20,12 @@ const Navbar = () => {
 				duration: 1,
 			},
 		},
-		exit: { y: '-100vh', transition: { duration: 1 } },
+		exit: { y: '-100vh', transition: { duration: .6 } },
 	};
 
 	return (
-		<nav className='text-white py-1 tracking-wider '>
-			<div className='max-w-7xl mx-auto flex justify-between items-center px-8 z-10  '>
+		<nav className='text-white py-1 tracking-wider z-40'>
+			<div className='max-w-7xl mx-auto flex justify-between items-center px-8   '>
 				<button className='py-1' onClick={closeMenu}>
 					<Link href={'/'}>
 						<a className='text-3xl hover:opacity-70 transition duration-700'>
@@ -65,7 +65,7 @@ const Navbar = () => {
 			<AnimatePresence mode='wait'>
 				{open && (
 					<motion.div
-						className='absolute w-full h-[24vh] z-40  shadow-lg text-white bg-red-500'
+						className='absolute w-full h-[24vh] z-20  shadow-lg text-white bg-red-500 bg-opacity-80'
 						variants={dropDownVariant}
 						initial='hidden'
 						animate='visible'
