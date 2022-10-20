@@ -11,9 +11,10 @@ const Navbar = () => {
 	};
 
 	const dropDownVariant = {
-		hidden: { y: '-100rem' },
+		hidden: { x: '-100vw', opacity: 0 },
 		visible: {
-			y: 0,
+			x: 0,
+			opacity: 1,
 			transition: {
 				duration: 1,
 				
