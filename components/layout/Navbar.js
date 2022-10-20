@@ -11,19 +11,19 @@ const Navbar = () => {
 	};
 
 	const dropDownVariant = {
-		hidden: { y: '-100vh' },
+		hidden: { y: '-200px' },
 		visible: {
 			y: 0,
 			transition: {
-				duration: 1,
-				exit: { y: '-100vh' },
+				duration: .8,
+				
 			},
-			
 		},
+		exit: { y: '-100vh', transition: {duration: 1} },
 	};
 
 	return (
-		<nav className=''>
+		<nav className='text-white'>
 			<div className='max-w-7xl mx-auto flex justify-between items-center px-8 z-10  '>
 				<button className='py-1' onClick={closeMenu}>
 					<Link href={'/'}>
