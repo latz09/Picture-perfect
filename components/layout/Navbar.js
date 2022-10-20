@@ -65,7 +65,7 @@ const Navbar = () => {
 			<AnimatePresence mode='wait'>
 				{open && (
 					<motion.div
-						className='absolute w-full h-[24vh] z-20  shadow-lg text-white bg-red-500 bg-opacity-80'
+						className='absolute w-full h-[24vh] z-20  shadow-lg text-white bg-red-500'
 						variants={dropDownVariant}
 						initial='hidden'
 						animate='visible'
