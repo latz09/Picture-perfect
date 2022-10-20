@@ -11,16 +11,15 @@ const Navbar = () => {
 	};
 
 	const dropDownVariant = {
-		hidden: { opacity: 0 },
+		hidden: { y: '-70px', opacity: 0 },
 		visible: {
-			// y: 0,
+			y: 0,
 			opacity: 1,
 			transition: {
 				duration: 1,
-				
 			},
 		},
-		exit: {opacity: 0, transition: {duration: .3} },
+		exit: { y: '-100vh', transition: { duration: 1 } },
 	};
 
 	return (
@@ -57,29 +56,27 @@ const Navbar = () => {
 			</div>
 			<AnimatePresence mode='wait'>
 				{open && (
-					
-						<motion.div
-							className='absolute w-full h-[24vh] z-40  shadow-lg text-white bg-red-500'
-							variants={dropDownVariant}
-							initial='hidden'
-							animate='visible'
-							exit='exit'
-						>
-							<div className='grid place-items-center gap-2 h-full py-3'>
-								{navLinks.map((link) => (
-									<div
-										key={link.name}
-										className='text-lg z-30'
-										onClick={() => setOpen(!open)}
-									>
-										<Link href={link.link}>
-											<a className=''>{link.name}</a>
-										</Link>
-									</div>
-								))}
-							</div>
-						</motion.div>
-					
+					<motion.div
+						className='absolute w-full h-[24vh] z-40  shadow-lg text-white bg-red-500'
+						variants={dropDownVariant}
+						initial='hidden'
+						animate='visible'
+						exit='exit'
+					>
+						<div className='grid place-items-center gap-2 h-full py-3'>
+							{navLinks.map((link) => (
+								<div
+									key={link.name}
+									className='text-lg z-30'
+									onClick={() => setOpen(!open)}
+								>
+									<Link href={link.link}>
+										<a className=''>{link.name}</a>
+									</Link>
+								</div>
+							))}
+						</div>
+					</motion.div>
 				)}
 			</AnimatePresence>
 		</nav>
