@@ -17,3 +17,5 @@ const FeaturedItem = ({ image, title }) => {
 };
 
 export default FeaturedItem;
+
+
