@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { AiFillHome } from 'react-icons/ai';
 import { navLinks } from '../../data/navLinks';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -23,11 +24,16 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className='text-white'>
+		<nav className='text-white py-1 tracking-wider '>
 			<div className='max-w-7xl mx-auto flex justify-between items-center px-8 z-10  '>
 				<button className='py-1' onClick={closeMenu}>
 					<Link href={'/'}>
-						<a>Home</a>
+						<a className='text-3xl hover:opacity-70 transition duration-700'>
+							<div className='grid gap-1 place-items-center'>
+								<AiFillHome />
+								<span className='text-gray-200 text-lg'>{`(651) 455-7595`}</span>
+							</div>
+						</a>
 					</Link>
 				</button>
 
@@ -38,7 +44,9 @@ const Navbar = () => {
 							className='md:ml-8 text-lg md:text-2xl md:my-0 my-7 text-center'
 						>
 							<Link href={link.link}>
-								<a className=' '>{link.name}</a>
+								<a className='hover:opacity-70 transition duration-700'>
+									{link.name}
+								</a>
 							</Link>
 						</div>
 					))}
