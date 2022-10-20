@@ -11,11 +11,11 @@ const Navbar = () => {
 	};
 
 	const dropDownVariant = {
-		hidden: { y: '-200px' },
+		hidden: { y: '-100rem' },
 		visible: {
 			y: 0,
 			transition: {
-				duration: .8,
+				duration: 1,
 				
 			},
 		},
@@ -56,7 +56,7 @@ const Navbar = () => {
 			</div>
 			<AnimatePresence mode='wait'>
 				{open && (
-					<div>
+					
 						<motion.div
 							className='absolute w-full h-[24vh] z-40  shadow-lg text-white bg-red-500'
 							variants={dropDownVariant}
@@ -78,7 +78,7 @@ const Navbar = () => {
 								))}
 							</div>
 						</motion.div>
-					</div>
+					
 				)}
 			</AnimatePresence>
 		</nav>
