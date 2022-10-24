@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { MdKeyboardArrowDown } from 'react-icons/md';
-import hero from '../../public/images/corporate/office.jpg';
+import hero from '../../public/images/corporate/commercial-services.png';
 
 const CommercialHero = () => {
 	return (
