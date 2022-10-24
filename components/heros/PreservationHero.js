@@ -22,16 +22,14 @@ const Preservationhero = () => {
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-70 px-3'>
 				<div className='grid gap-4 text-left tracking-widest text-gray-200 items-center justify-items-center'>
 					<motion.h1
-						className='text-5xl text-white text-center'
-						initial={{ fontSize: '4.5rem', lineHeight: '1' }}
-						animate={{ fontSize: '3rem', lineHeight: '1' }}
+						className='text-5xl text-white text-center px-2'
+						initial={{ fontSize: '3.75rem', lineHeight: '1' }}
+						animate={{ fontSize: '2.25rem', lineHeight: '2.rem' }}
 						transition={{ duration: 1.8, delay: 1.3 }}
 					>
 						Preservation process
 					</motion.h1>
-					<div className='max-w-3xl mx-auto text-center text-xl'>
-						The Steps we take
-					</div>
+					
 				</div>
 			</div>
 		</motion.div>

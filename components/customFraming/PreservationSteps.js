@@ -11,7 +11,7 @@ const PreservationSteps = () => {
 			className='grid border-b border-gray-700 border-opacity-40'
 			initial={{ opacity: 0 }}
 			whileInView={{ opacity: 1 }}
-			transition={{ delay: .7, duration: 2 }}
+			transition={{ delay: 0.7, duration: 2 }}
 		>
 			<div className='py-12'>
 				<div className='grid gap-8 md:grid-cols-2 justify-items-center items-center max-w-5xl mx-auto '>
@@ -25,7 +25,9 @@ const PreservationSteps = () => {
 						/>
 					</div>
 					<div className='grid gap-4 order-1 md:order-2 px-4'>
-						<span className='text-red-500 text-5xl tracking-wider'>First</span>
+						<span className='text-red-500 text-3xl md:text-5xl tracking-wider'>
+							First
+						</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
@@ -37,7 +39,9 @@ const PreservationSteps = () => {
 			<div className='bg-gray-50 py-12'>
 				<div className='grid gap-8 md:grid-cols-2 justify-items-center items-center max-w-5xl mx-auto '>
 					<div className='grid gap-4 px-4'>
-						<span className='text-red-500 text-5xl'>next</span>
+						<span className='text-red-500 text-3xl md:text-5xl tracking-wider'>
+							next
+						</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
@@ -67,7 +71,9 @@ const PreservationSteps = () => {
 						/>
 					</div>
 					<div className='grid gap-4 order-1 md:order-2 px-4'>
-						<span className='text-red-500 text-5xl'>then</span>
+						<span className='text-red-500 text-3xl md:text-5xl tracking-wider'>
+							then
+						</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
@@ -79,7 +85,9 @@ const PreservationSteps = () => {
 			<div className='bg-gray-50 py-12'>
 				<div className='grid gap-8 md:grid-cols-2 justify-items-center items-center max-w-5xl mx-auto '>
 					<div className='grid gap-4 px-4'>
-						<span className='text-red-500 text-5xl'>Finally</span>
+						<span className='text-red-500 text-3xl md:text-5xl tracking-wider'>
+							Finally
+						</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
