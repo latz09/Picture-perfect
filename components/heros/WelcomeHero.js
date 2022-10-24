@@ -31,7 +31,7 @@ const WelcomeHero = () => {
 						variants={delayVariant}
 						initial='hidden'
 						animate='visible'
-						className=' text-lg md:text-2xl  text-center  font-rubik bg-red-500 py-3 bg-opacity-75'
+						className=' text-lg md:text-2xl  text-center  bg-red-500 py-3 bg-opacity-75 md:bg-opacity-40'
 					>
 						Designing the perfect framing to suit your style and budget
 					</motion.p>
