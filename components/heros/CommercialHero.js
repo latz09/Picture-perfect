@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import hero from '../../public/images/corporate/commercial-services.png';
+import { motion } from 'framer-motion';
 
 const CommercialHero = () => {
 	return (
@@ -14,12 +15,17 @@ const CommercialHero = () => {
 					objectPosition='center'
 				/>
 			</div>
-			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
-				<div className='grid gap-4 text-center justify-items-center tracking-widest text-gray-200'>
+			<motion.div
+				className='relative flex justify-center items-center h-full bg-black '
+				initial={{ opacity: 0.1 }}
+				animate={{ opacity: 0.73 }}
+				transition={{ delay: 0.7, duration: 3.2 }}
+			>
+				<div className='grid gap-4 text-center justify-items-center tracking-widest text-white '>
 					<h1 className='text-3xl md:text-6xl font-robotoslab text-white'>
 						Commercial Services
 					</h1>
-					<div className=' text-lg md:text-2xl text-gray-200 tracking-wider '>
+					<div className=' text-lg md:text-2xl text-white tracking-wider '>
 						<span className='text-white underline underline-offset-8 decoration-red-500'>
 							{' '}
 							Competitevely priced{' '}
@@ -30,7 +36,7 @@ const CommercialHero = () => {
 						<MdKeyboardArrowDown />{' '}
 					</span>
 				</div>
-			</div>
+			</motion.div>
 		</div>
 	);
 };
