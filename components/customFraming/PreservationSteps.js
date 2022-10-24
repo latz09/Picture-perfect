@@ -3,11 +3,16 @@ import step1 from '../../public/images/preservation/step-1.jpg';
 import step2 from '../../public/images/preservation/step-2.jpg';
 import step3 from '../../public/images/preservation/step-3.jpg';
 import step4 from '../../public/images/preservation/step-4.jpg';
-import WelcomeHero from '../../components/heros/WelcomeHero';
+import { motion } from 'framer-motion';
 
 const PreservationSteps = () => {
 	return (
-		<div className='grid border-b border-gray-700 border-opacity-40'>
+		<motion.div
+			className='grid border-b border-gray-700 border-opacity-40'
+			initial={{ opacity: 0 }}
+			whileInView={{ opacity: 1 }}
+			transition={{ delay: .7, duration: 2 }}
+		>
 			<div className='py-12'>
 				<div className='grid gap-8 md:grid-cols-2 justify-items-center items-center max-w-5xl mx-auto '>
 					<div className='shadow-lg order-2 md:order-1'>
@@ -20,9 +25,7 @@ const PreservationSteps = () => {
 						/>
 					</div>
 					<div className='grid gap-4 order-1 md:order-2 px-4'>
-						<span className='text-red-500 text-5xl font-rubik tracking-wider'>
-							First
-						</span>
+						<span className='text-red-500 text-5xl tracking-wider'>First</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
@@ -34,7 +37,7 @@ const PreservationSteps = () => {
 			<div className='bg-gray-50 py-12'>
 				<div className='grid gap-8 md:grid-cols-2 justify-items-center items-center max-w-5xl mx-auto '>
 					<div className='grid gap-4 px-4'>
-						<span className='text-red-500 text-5xl font-rubik'>next</span>
+						<span className='text-red-500 text-5xl'>next</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
@@ -64,7 +67,7 @@ const PreservationSteps = () => {
 						/>
 					</div>
 					<div className='grid gap-4 order-1 md:order-2 px-4'>
-						<span className='text-red-500 text-5xl font-rubik'>then</span>
+						<span className='text-red-500 text-5xl'>then</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
@@ -76,7 +79,7 @@ const PreservationSteps = () => {
 			<div className='bg-gray-50 py-12'>
 				<div className='grid gap-8 md:grid-cols-2 justify-items-center items-center max-w-5xl mx-auto '>
 					<div className='grid gap-4 px-4'>
-						<span className='text-red-500 text-5xl font-rubik'>Finally</span>
+						<span className='text-red-500 text-5xl'>Finally</span>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
@@ -94,7 +97,7 @@ const PreservationSteps = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
