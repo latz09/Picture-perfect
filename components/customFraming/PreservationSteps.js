@@ -4,6 +4,7 @@ import step2 from '../../public/images/preservation/step-2.jpg';
 import step3 from '../../public/images/preservation/step-3.jpg';
 import step4 from '../../public/images/preservation/step-4.jpg';
 import { motion } from 'framer-motion';
+import WhileInView from '../utils/animations/WhileInView';
 
 const PreservationSteps = () => {
 	return (
@@ -28,11 +29,13 @@ const PreservationSteps = () => {
 						<span className='text-red-500 text-3xl md:text-5xl tracking-wider'>
 							First
 						</span>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
-							quam nulla porttitor massa id neque aliquam vestibulum morbi.
-						</p>
+						<WhileInView>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
+								quam nulla porttitor massa id neque aliquam vestibulum morbi.
+							</p>
+						</WhileInView>
 					</div>
 				</div>
 			</div>
@@ -42,11 +45,13 @@ const PreservationSteps = () => {
 						<span className='text-red-500 text-3xl md:text-5xl tracking-wider'>
 							next
 						</span>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
-							quam nulla porttitor massa id neque aliquam vestibulum morbi.
-						</p>
+						<WhileInView>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
+								quam nulla porttitor massa id neque aliquam vestibulum morbi.
+							</p>
+						</WhileInView>
 					</div>
 					<div className='shadow-lg '>
 						<Image
@@ -74,11 +79,13 @@ const PreservationSteps = () => {
 						<span className='text-red-500 text-3xl md:text-5xl tracking-wider'>
 							then
 						</span>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
-							quam nulla porttitor massa id neque aliquam vestibulum morbi.
-						</p>
+						<WhileInView>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
+								quam nulla porttitor massa id neque aliquam vestibulum morbi.
+							</p>
+						</WhileInView>
 					</div>
 				</div>
 			</div>
@@ -88,11 +95,13 @@ const PreservationSteps = () => {
 						<span className='text-red-500 text-3xl md:text-5xl tracking-wider'>
 							Finally
 						</span>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
-							quam nulla porttitor massa id neque aliquam vestibulum morbi.
-						</p>
+						<WhileInView>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam
+								quam nulla porttitor massa id neque aliquam vestibulum morbi.
+							</p>
+						</WhileInView>
 					</div>
 					<div className='shadow-lg '>
 						<Image
