@@ -17,8 +17,8 @@ const CustomFramingHero = () => {
 			</div>
 
 			<div className='flex justify-center items-center relative h-full bg-black bg-opacity-50'>
-				<div className='grid gap-4 place-items-center tracking-widest text-gray-200 max-w-5xl text-center '>
-					<h1 className='text-5xl md:text-7xl  font-robotoslab text-white text-left mt-20'>
+				<div className='grid gap-4 items-center tracking-widest text-gray-200 max-w-5xl text-center '>
+					<h1 className='text-5xl md:text-7xl font-robotoslab text-white  mt-20'>
 						Custom Framing
 					</h1>
 					<motion.div
