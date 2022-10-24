@@ -19,7 +19,7 @@ const CommercialHero = () => {
 				className='relative flex justify-center items-center h-full bg-black '
 				initial={{ opacity: 0.1 }}
 				animate={{ opacity: 0.73 }}
-				transition={{ delay: 0.7, duration: 3.2 }}
+				transition={{ delay: 0.4, duration: 3.3 }}
 			>
 				<div className='grid gap-4 text-center justify-items-center tracking-widest text-white '>
 					<h1 className='text-3xl md:text-6xl font-robotoslab text-white'>
