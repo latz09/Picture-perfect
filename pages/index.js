@@ -2,9 +2,8 @@ import Head from 'next/head';
 import About from '../components/about/About';
 import CorporateSection from '../components/corporate/CommercialSection';
 import CustomMade from '../components/customFraming/CustomMade';
-import FeaturedFraming from '../components/featuredFraming/FeaturedFraming';
-import FrameAnythingHero from '../components/heros/FrameAnythingHero';
-import CommercialHero from '../components/heros/CommercialHero';
+import FeaturedFraming from '../components/featuredFraming/FeaturedFraming';import FrameAnythingHero from '../components/heros/FrameAnythingHero';
+
 import WelcomeHero from '../components/heros/WelcomeHero';
 
 export default function Home() {
