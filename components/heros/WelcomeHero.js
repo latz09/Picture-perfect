@@ -37,7 +37,7 @@ const WelcomeHero = () => {
 						<motion.p
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
-							transition={{ delay: 2.2, duration: 0.7 }}
+							transition={{ delay: 2.2, duration: 1.2 }}
 						>
 							Designing the perfect framing to suit your style and budget
 						</motion.p>
