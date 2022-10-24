@@ -12,7 +12,7 @@ const FrameAnythingHero = () => {
 				staggerChildren: 0.7,
 				delay: 0.3,
 			},
-			exit: { opacity: 0 },
+			exit: { opacity: 1 },
 		},
 	};
 	const item = {

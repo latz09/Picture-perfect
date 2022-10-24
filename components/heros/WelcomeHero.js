@@ -4,11 +4,13 @@ import { motion } from 'framer-motion';
 
 const WelcomeHero = () => {
 	const delayVariant = {
-		hidden: { opacity: 0 },
+		hidden: { opacity: 0, x: '-100vw' },
 		visible: {
 			opacity: 1,
+			x: 1 ,
 			transition: {
-				delay: .5,
+				type: 'spring',
+				delay: 0.5,
 				duration: 1.9,
 			},
 		},
@@ -27,14 +29,20 @@ const WelcomeHero = () => {
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60 text-white'>
 				<div className='grid gap-4  tracking-widest '>
 					<h1 className='text-4xl md:text-6xl font-robotoslab font-bold px-4 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
-					<motion.p
+					<motion.div
 						variants={delayVariant}
 						initial='hidden'
 						animate='visible'
-						className=' text-lg md:text-2xl  text-center  bg-red-500 py-3 bg-opacity-75 md:bg-opacity-40'
+						className=' text-lg md:text-2xl  text-center  bg-red-500 py-3 bg-opacity-75 '
 					>
-						Designing the perfect framing to suit your style and budget
-					</motion.p>
+						<motion.p
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							transition={{ delay: 1.75, duration: 1 }}
+						>
+							Designing the perfect framing to suit your style and budget
+						</motion.p>
+					</motion.div>
 				</div>
 			</div>
 		</div>
