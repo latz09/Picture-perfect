@@ -4,14 +4,14 @@ import hero from '../../public/images/corporate/commercial-services.png';
 
 const CommercialHero = () => {
 	return (
-		<div className='relative w-[100vw] h-[60vh]'>
+		<div className='relative w-[100vw] h-[60vh] md:h-[80vh]'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
 					alt=''
 					layout='fill'
 					objectFit='cover'
-					objectPosition='left'
+					objectPosition='center'
 				/>
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
