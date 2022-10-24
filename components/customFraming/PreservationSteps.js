@@ -16,7 +16,7 @@ const PreservationSteps = () => {
 		>
 			<div className='py-12'>
 				<div className='grid gap-8 md:grid-cols-2 justify-items-center items-center max-w-5xl mx-auto '>
-					<div className='shadow-lg order-2 md:order-1'>
+					<div className='shadow-lg order-2 md:order-1 grid place-items-center '>
 						<Image
 							src={step1}
 							alt=''
@@ -53,7 +53,7 @@ const PreservationSteps = () => {
 							</p>
 						</WhileInView>
 					</div>
-					<div className='shadow-lg '>
+					<div className='shadow-lg grid place-items-center '>
 						<Image
 							src={step2}
 							alt=''
@@ -66,7 +66,7 @@ const PreservationSteps = () => {
 			</div>
 			<div className='bg-gray-200 py-12'>
 				<div className='grid gap-8 md:grid-cols-2 justify-items-center items-center max-w-5xl mx-auto '>
-					<div className='shadow-lg order-2 md:order-1'>
+					<div className='shadow-lg order-2 md:order-1 grid place-items-center'>
 						<Image
 							src={step3}
 							alt=''
@@ -103,7 +103,7 @@ const PreservationSteps = () => {
 							</p>
 						</WhileInView>
 					</div>
-					<div className='shadow-lg '>
+					<div className='shadow-lg grid place-items-center'>
 						<Image
 							src={step4}
 							alt=''
