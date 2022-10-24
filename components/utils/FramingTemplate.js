@@ -40,7 +40,7 @@ const FramingTemplate = ({
 				<div className='shadow-lg grid gap-2 '>
 					<Image src={image} alt={alt} layout='intrinsic' />
 					<motion.p
-						className='md:text-center text-base md:text-lg font-bold text-gray-500 py-6'
+						className='md:text-center text-base md:text-lg font-bold text-gray-500 py-6 px-2'
 						initial={{ opacity: 0, x: '20px' }}
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ delay: 0.2, duration: 1.3 }}
