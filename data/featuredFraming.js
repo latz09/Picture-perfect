@@ -1,22 +1,27 @@
+import prince from '../public/images/prince.jpg';
+import jersey from '../public/images/jersey-mn.jpg';
+import preservation from '../public/images/newspaper.jpg';
+import memorabilia from '../public/images/memories.jpg';
+
 export const featuredFraming = [
-    {
-        image: '/images/prince.jpg',
-        title: 'Art Work',
-        description: ''
-    },
-    {
-        image: '/images/jersey.jpg',
-        title: 'Jerseys',
-        description: ''
-    },
-    {
-        image: '/images/newspaper.jpg',
-        title: 'Preservation',
-        description: ''
-    },
-    {
-        image: '/images/memories.jpg',
-        title: 'Memorabilia',
-        description: ''
-    },
-]
+	{
+		image: prince,
+		title: 'Art Work',
+		description: '',
+	},
+	{
+		image: jersey,
+		title: 'Jerseys',
+		description: '',
+	},
+	{
+		image: preservation,
+		title: 'Preservation',
+		description: '',
+	},
+	{
+		image: memorabilia,
+		title: 'Memorabilia',
+		description: '',
+	},
+];

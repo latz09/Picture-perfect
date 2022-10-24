@@ -1,5 +1,5 @@
 import FramingTemplate from '../utils/FramingTemplate';
-import jersey from '../../public/images/jersey.jpg';
+import jersey from '../../public/images/jersey-mn.jpg';
 
 const JerseyFraming = () => {
 	return (
