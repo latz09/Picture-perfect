@@ -18,7 +18,7 @@ const CorporateHero = () => {
 			</div>
 			<div className='relative flex justify-center items-center  bg-dark/80 h-full'>
 				<AnimatePresence>
-					<div className='grid gap-4 text-center tracking-widest text-light'>
+					<div className='grid gap-1 text-center tracking-widest text-light'>
 						<motion.h1
 							initial={{ opacity: 0 }}
 							whileInView={{ opacity: 1 }}
@@ -38,8 +38,8 @@ const CorporateHero = () => {
 							Elegantly framed artwork your clients can enjoy
 						</motion.p>
 						<Link href={'/commercial-services'}>
-							<div>
-								<button className='bg-primary shadow-lg shadow-primary/40 p-4 hover:bg-opacity-75 transition duration-700 text-xl font-bold'>
+							<div className="mt-8">
+								<button className='btn-primary'>
 									Learn More
 								</button>
 							</div>

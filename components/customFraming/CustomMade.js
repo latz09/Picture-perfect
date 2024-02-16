@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const CustomMade = () => {
 	return (
-		<div className='  bg-dark py-16 text-light px-4'>
+		<div className='  bg-dark py-16 lg:py-24 text-light px-4'>
 			<WhileInView>
 				<div className='grid gap-8 max-w-5xl mx-auto'>
 					<div>
@@ -25,7 +25,7 @@ const CustomMade = () => {
 						transition={{ delay: 0.4, duration: 1.2 }}
 					>
 						<Link href={'/custom-framing'}>
-							<span className='text-lg p-1 bg-primary rounded-sm font-bold  shadow-lg shadow-primary/40 hover:bg-opacity-75 transition duration-700 cursor-pointer px-2 py-4'>
+							<span className='btn-secondary'>
 								{' '}
 								Custom Framing{' '}
 							</span>

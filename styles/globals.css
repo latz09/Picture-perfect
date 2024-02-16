@@ -18,4 +18,10 @@
   .snap-start {
     scroll-snap-align: start;
   }
+  .btn-primary {
+    @apply text-lg border  border-primary bg-primary py-3 px-8 hover:bg-primary/0 hover:border-light transition duration-700 cursor-pointer shadow-lg shadow-primary/30
+  }
+  .btn-secondary {
+    @apply text-lg border border-light py-3 px-8 hover:bg-primary hover:border-light/0 transition duration-700 cursor-pointer 
+  }
 }

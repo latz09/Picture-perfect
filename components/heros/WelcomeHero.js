@@ -27,7 +27,7 @@ const WelcomeHero = () => {
 
 			<div className='relative flex justify-center items-center h-full bg-dark/70 '>
 				<div className='grid gap-4  tracking-widest '>
-					<h1 className='text-4xl md:text-7xl scale-y-125 text-primary font-tinos  font-bold px-4 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
+					<h1 className='text-3xl md:text-7xl scale-y-125 text-primary font-tinos text-center font-bold px-4 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
 					<motion.div
 						variants={delayVariant}
 						initial='hidden'
@@ -37,9 +37,16 @@ const WelcomeHero = () => {
 						<motion.p
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
-							transition={{ delay: 2.2, duration: 1.2 }}
+							transition={{ delay: 1.8, duration: 1.2 }}
 						>
-							Designing the perfect framing to suit your style and budget
+							Designing the Perfect Framing to Suit Your Style and Budget
+						</motion.p>
+						<motion.p
+							initial={{ opacity: 0 }}
+							animate={{ opacity: 1 }}
+							transition={{ delay: 2, duration: 1.2 }}
+						>
+							West Saint Paul, MN
 						</motion.p>
 					</motion.div>
 				</div>

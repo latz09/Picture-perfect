@@ -6,7 +6,7 @@ const About = () => {
 	return (
 		<div className=' max-w-7xl mx-auto py-8   grid '>
 			<div className='grid gap-8 md:grid-cols-2 items-center justify-items-center mx-4'>
-				<div className=''>
+				<div className='w-1/3'>
 					<Image
 						src={mnOutline}
 						alt=''
@@ -15,7 +15,7 @@ const About = () => {
 					/>
 				</div>
 				<WhileInView>
-					<h1 className='text-2xl  md:text-3xl text-center md:text-start'>
+					<h1 className='text-2xl  md:text-2xl text-center md:text-start'>
 						<span className='text-primary font-bold'>
 							{' '}
 							{`Picture Perfect Art & Frame`}{' '}
