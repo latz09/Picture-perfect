@@ -30,7 +30,7 @@ const FrameAnythingHero = () => {
 	const phrase = ['We', 'frame', 'everything.'];
 
 	return (
-		<div className='relative w-[100vw] h-[40vh] md:h-[75vh]'>
+		<div className='relative h-[55vh] md:h-[75vh] shadow-lg shadow-primary/40'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
@@ -40,8 +40,8 @@ const FrameAnythingHero = () => {
 					objectPosition='left'
 				/>
 			</div>
-			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-50'>
-				<div className='grid gap-4 text-center tracking-widest text-gray-200'>
+			<div className='relative flex justify-center items-center h-full bg-gradient-to-b from-dark/0 via-dark/70 to-dark/0 text-light'>
+				<div className='grid gap-4 text-center tracking-widest '>
 					<AnimatePresence>
 						<h1 className='text-5xl md:text-7xl font-robotoslab text-white text-left'>
 							<motion.div
@@ -49,7 +49,7 @@ const FrameAnythingHero = () => {
 								initial='hidden'
 								whileInView='show'
 								exit='exit'
-								className='flex  flex-wrap'
+								className='flex  flex-wrap  '
 							>
 								{phrase.map((word) => (
 									<motion.span key={word} variants={item} className='mx-2'>

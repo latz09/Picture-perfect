@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 const CorporateHero = () => {
 	return (
-		<div className='relative w-[100vw] h-[40vh] md:h-[80vh]'>
+		<div className='relative h-[80vh]'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
@@ -16,15 +16,15 @@ const CorporateHero = () => {
 					objectPosition='center'
 				/>
 			</div>
-			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60'>
+			<div className='relative flex justify-center items-center  bg-dark/80 h-full'>
 				<AnimatePresence>
-					<div className='grid gap-4 text-center tracking-widest text-gray-200'>
+					<div className='grid gap-4 text-center tracking-widest text-light'>
 						<motion.h1
 							initial={{ opacity: 0 }}
 							whileInView={{ opacity: 1 }}
 							transition={{ duration: 1.3, delay: 0.3 }}
 							exit={{ opacity: 0 }}
-							className='text-3xl md:text-6xl font-robotoslab text-white'
+							className='text-3xl md:text-6xl font-robotoslab '
 						>
 							Commercial Services
 						</motion.h1>
@@ -35,11 +35,11 @@ const CorporateHero = () => {
 							exit={{ opacity: 0 }}
 							className=' text-lg md:text-2xl text-gray-300 '
 						>
-							elegantly framed artwork your clients can enjoy
+							Elegantly framed artwork your clients can enjoy
 						</motion.p>
 						<Link href={'/commercial-services'}>
 							<div>
-								<button className='bg-red-500 p-4 hover:bg-opacity-75 transition duration-700 text-xl'>
+								<button className='bg-primary shadow-lg shadow-primary/40 p-4 hover:bg-opacity-75 transition duration-700 text-xl font-bold'>
 									Learn More
 								</button>
 							</div>
@@ -48,6 +48,7 @@ const CorporateHero = () => {
 				</AnimatePresence>
 			</div>
 		</div>
+		
 	);
 };
 

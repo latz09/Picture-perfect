@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const CommercialHero = () => {
 	return (
-		<div className='relative w-[100vw] h-[40vh] md:h-[80vh]'>
+		<div className='relative  h-[40vh] md:h-[80vh]'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
@@ -16,23 +16,23 @@ const CommercialHero = () => {
 				/>
 			</div>
 			<motion.div
-				className='relative flex justify-center items-center h-full bg-black '
+				className='relative flex justify-center items-center h-full bg-dark text-light '
 				initial={{ opacity: 0.1 }}
-				animate={{ opacity: 0.73 }}
+				animate={{ opacity: .93 }}
 				transition={{ delay: 0.4, duration: 3.3 }}
 			>
-				<div className='grid gap-4 text-center justify-items-center tracking-widest text-white '>
-					<h1 className='text-3xl md:text-6xl font-robotoslab text-white'>
+				<div className='grid gap-2 text-center justify-items-center tracking-widest  '>
+					<h1 className='text-3xl md:text-6xl font-tinos '>
 						Commercial Services
 					</h1>
 					<div className=' text-lg md:text-2xl text-white tracking-wider '>
-						<span className='text-white underline underline-offset-8 decoration-red-500'>
+						<span className=''>
 							{' '}
 							Competitevely priced{' '}
 						</span>
 						to impress your clients and inspire your staff
 					</div>
-					<span className='text-5xl text-red-500 animate-pulse '>
+					<span className='text-5xl text-primary animate-pulse '>
 						<MdKeyboardArrowDown />{' '}
 					</span>
 				</div>

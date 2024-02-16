@@ -24,14 +24,14 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className='text-white py-1 tracking-wider z-40'>
+		<nav className='text-white py-1 tracking-wider z-40 '>
 			<div className='max-w-7xl mx-auto flex justify-between items-center px-8   '>
 				<button className='py-1' onClick={closeMenu}>
 					<Link href={'/'}>
-						<a className='text-3xl hover:opacity-70 transition duration-700'>
+						<a className='text-3xl text-primary transition duration-700'>
 							<div className='grid gap-1 place-items-center'>
 								<AiFillHome />
-								<span className='text-gray-200 text-lg'>{`(651) 455-7595`}</span>
+								<span className='text-sm'>{`(651) 455-7595`}</span>
 							</div>
 						</a>
 					</Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
 					{navLinks.map((link) => (
 						<div
 							key={link.name}
-							className='md:ml-8 text-lg md:text-2xl md:my-0 my-7 text-center'
+							className='md:ml-8 text-lg md:my-0 my-7 text-center'
 						>
 							<Link href={link.link}>
 								<a className='hover:opacity-70 transition duration-700'>
@@ -65,7 +65,7 @@ const Navbar = () => {
 			<AnimatePresence mode='wait'>
 				{open && (
 					<motion.div
-						className='absolute w-full h-[24vh] z-20  shadow-lg text-white bg-red-500'
+						className='absolute w-full h-[24vh] z-20  shadow-lg text-white bg-primary'
 						variants={dropDownVariant}
 						initial='hidden'
 						animate='visible'

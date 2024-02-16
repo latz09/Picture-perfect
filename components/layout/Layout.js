@@ -3,8 +3,8 @@ import Navbar from './Navbar';
 
 const Layout = ({ children }) => {
 	return (
-		<div className='font-robotoslab flex flex-col h-screen '>
-			<div className=' bg-red-500 '>
+		<div className='  font-questrial text-dark bg-light'>
+			<div className='shadow-lg shadow-primary/20 sticky top-0 z-50 bg-light'>
 				<Navbar />{' '}
 			</div>
 			<main className='flex-grow'>{children}</main>

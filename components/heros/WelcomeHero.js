@@ -16,7 +16,7 @@ const WelcomeHero = () => {
 	};
 
 	return (
-		<div className='relative w-[100vw] h-[75vh] z-10'>
+		<div className='relative  h-[80vh] z-10'>
 			<Image
 				src={hero}
 				alt=''
@@ -25,14 +25,14 @@ const WelcomeHero = () => {
 				objectPosition='center'
 			/>
 
-			<div className='relative flex justify-center items-center h-full bg-black bg-opacity-60 text-white'>
+			<div className='relative flex justify-center items-center h-full bg-dark/70 '>
 				<div className='grid gap-4  tracking-widest '>
-					<h1 className='text-4xl md:text-6xl font-robotoslab font-bold px-4 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
+					<h1 className='text-4xl md:text-7xl scale-y-125 text-primary font-tinos  font-bold px-4 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
 					<motion.div
 						variants={delayVariant}
 						initial='hidden'
 						animate='visible'
-						className=' text-lg md:text-2xl  text-center  bg-red-500 py-3 bg-opacity-75 mx-[1px]'
+						className=' text-lg md:text-2xl  text-center text-light'
 					>
 						<motion.p
 							initial={{ opacity: 0 }}

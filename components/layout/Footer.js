@@ -5,7 +5,7 @@ import Address from '../contact/Address';
 
 const Footer = () => {
 	return (
-		<div className='grid gap-6 justify-center md:grid-cols-3 md:place-items-center  px-3 pb-12 bg-gray-200'>
+		<div className='grid gap-6 justify-center md:grid-cols-3 md:place-items-center  px-3 py-24 max-w-5xl mx-auto '>
 			<Hours />
 			<div className='grid gap-5  h-full w-full md:justify-center md:items-center'>
 			

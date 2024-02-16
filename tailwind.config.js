@@ -7,27 +7,18 @@ module.exports = {
 	theme: {
 		extend: {},
 		fontFamily: {
-			robotoslab: ['Roboto Slab', 'serif'],
-			rubik: ['Rubik Distress', 'cursive'],
+			tinos: ['Tinos', 'serif'],
+			mulish: ['Mulish', 'sans-serif'],
+			questrial: ['Questrial', 'sans-serif'],
+			oswald: ['Oswald', 'sans-serif'],
 		},
 		colors: {
-			red: {
-				500: '#FB212F',
-			},
-			black: '#000000',
-			white: '#FFFFFF',
-			gray: {
-				50: '#f9fafb',
-				100: '#f3f4f6',
-				200: '#e5e7eb',
-				300: '#d1d5db',
-				400: '#9ca3af',
-				500: '#6b7280',
-				600: '#4b5563',
-				700: '#374151',
-				800: '#1f2937',
-				900: '#111827',
-			},
+			primary: '#E30015',
+		
+			secondary: '#779E43',
+			tertiary: '#ffee65',
+			dark: '#280004',
+			light: '#FDF4F5',
 		},
 	},
 	plugins: [require('@tailwindcss/forms')],
