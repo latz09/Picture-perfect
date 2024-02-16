@@ -5,21 +5,20 @@ import { motion } from 'framer-motion';
 
 const CommercialHero = () => {
 	return (
-		<div className='relative  h-[40vh] md:h-[50vh]'>
-			<div className='-z-10'>
+		<div className='relative  h-[35vh] md:h-[55vh]'>
+			<div className='-z-10 '>
 				<Image
 					src={hero}
 					alt=''
+					
 					layout='fill'
 					objectFit='cover'
 					objectPosition='center'
 				/>
 			</div>
 			<motion.div
-				className='relative flex justify-center items-center h-full bg-dark text-light '
-				initial={{ opacity: 0.1 }}
-				animate={{ opacity: .75 }}
-				transition={{ delay: 0.4, duration: 3.3 }}
+				className='relative flex justify-center shadow-lg shadow-primary/40 items-center h-full bg-gradient-to-b from-dark via-dark/40 to-dark/0 text-light '
+			
 			>
 				<div className='grid gap-2 text-center justify-items-center tracking-widest  '>
 					<h1 className='text-3xl md:text-6xl font-tinos '>

@@ -44,8 +44,8 @@ const WelcomeHero = () => {
 						<motion.p
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
-							transition={{ delay: .7, duration: 1.2 }}
-							className="italic"
+							transition={{ delay: .12.2, duration: 1.2 }}
+							className="italic mt-4"
 						>
 							West Saint Paul, MN
 						</motion.p>
