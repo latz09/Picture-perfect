@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import hero from '../../public/images/front-of-building.jpg';
+import hero from '../../public/images/front-of-building2.jpg';
 import { motion } from 'framer-motion';
 
 const WelcomeHero = () => {
@@ -16,13 +16,13 @@ const WelcomeHero = () => {
 	};
 
 	return (
-		<div className='relative  h-[50vh] lg:h-[65vh] z-10'>
+		<div className='relative  h-[50vh] lg:h-[80vh] z-10'>
 			<Image
 				src={hero}
 				alt=''
 				layout='fill'
 				objectFit='cover'
-				objectPosition='center'
+				objectPosition='bottom'
 			/>
 
 			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/20 via-dark/90 to-dark/40 px-2 '>
