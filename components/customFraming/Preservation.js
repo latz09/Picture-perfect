@@ -9,8 +9,7 @@ const Preservation = () => {
 			heading='Display special items without causing damage to the value'
             alt='framed comic book'
             imageDescription='Keep your treasured items out of hiding and up on the wall where you can enjoy them every day'
-            linkTitle='See how it is done'
-			link='/preservation-steps'
+        
 		/>
 	);
 };

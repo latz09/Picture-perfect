@@ -10,7 +10,7 @@ const customFraming = () => {
 		<div className='grid'>
 			<CustomFramingHero />
 
-			<div className='bg-gray-200'>
+			<div className='bg-dark/5'>
 				<div className='max-w-7xl mx-auto'>
 					<ArtFraming />
 				</div>

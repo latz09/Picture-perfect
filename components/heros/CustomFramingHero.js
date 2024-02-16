@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const CustomFramingHero = () => {
 	return (
-		<div className='relative w-[100vw] h-[50vh] md:h-[65vh]'>
+		<div className='relative   md:h-[60vh]'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
@@ -16,23 +16,15 @@ const CustomFramingHero = () => {
 				/>
 			</div>
 
-			<div className='flex justify-center items-center relative h-full bg-black bg-opacity-50'>
-				<div className='grid gap-4 items-center tracking-widest text-gray-200 max-w-5xl text-center '>
-					<h1 className='text-5xl md:text-7xl font-robotoslab text-white  mt-20'>
+			<div className='flex justify-center items-center relative h-full bg-dark/50 shadow-lg shadow-primary/40'>
+				<div className='grid gap-2 items-center tracking-widest text-light max-w-5xl text-center '>
+					<h1 className='text-5xl md:text-7xl text-light font-tinos '>
 						Custom Framing
 					</h1>
-					<motion.div
-						className='text-base md:text-2xl mx-2'
-						initial={{opacity: 0}}
-						animate={{opacity: 1}}
-						transition={{delay: .6, duration: 1.5}}
-					>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</motion.div>
-					<div className='text-red-500  text-lg md:text-3xl grid gap-2 justify-items-center'>
+				
+					<div className='text-light  text-lg md:text-2xl grid gap-2 justify-items-center'>
 						{' '}
-						<span> Get inspired</span>{' '}
+						<span className="text-primary font-bold"> Get inspired</span>{' '}
 						<span className='text-5xl animate-pulse'>
 							<MdKeyboardArrowDown />{' '}
 						</span>

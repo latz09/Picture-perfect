@@ -9,8 +9,7 @@ const FramingTemplate = ({
 	image,
 	imageDescription,
 	alt,
-	link,
-	linkTitle,
+
 }) => {
 	return (
 		<div className='grid md:grid-cols-2 justify-items-center items-center text-gray-700 py-9 mx-4'>
@@ -26,13 +25,7 @@ const FramingTemplate = ({
 							nullam non nisi est sit amet facilisis magna etiam. Semper eget
 							duis at tellus at urna condimentum mattis.
 						</p>
-						<div className='my-4'>
-							<Link href={link}>
-								<span className='cursor-pointer px-4 py-2 shadow-lg bg-red-500 text-center text-white tracking-wider text-lg hover:opacity-75 transition duration-700 mt-5'>
-									{linkTitle}
-								</span>
-							</Link>
-						</div>
+					
 					</div>
 				</WhileInView>
 			</div>
