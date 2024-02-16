@@ -16,7 +16,7 @@ const WelcomeHero = () => {
 	};
 
 	return (
-		<div className='relative  h-[55vh] lg:h-[65vh] z-10'>
+		<div className='relative  h-[50vh] lg:h-[65vh] z-10'>
 			<Image
 				src={hero}
 				alt=''
@@ -37,14 +37,14 @@ const WelcomeHero = () => {
 						<motion.p
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
-							transition={{ delay: 1.8, duration: 1.2 }}
+							transition={{ delay: .3, duration: 1.2 }}
 						>
 							Designing the Perfect Framing to Suit Your Style and Budget
 						</motion.p>
 						<motion.p
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
-							transition={{ delay: 2, duration: 1.2 }}
+							transition={{ delay: .7, duration: 1.2 }}
 							className="italic"
 						>
 							West Saint Paul, MN
