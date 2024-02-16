@@ -12,7 +12,7 @@ const customFraming = () => {
 			<div className='lg:gap-16 gap-8 grid pt-12'>
 				<div className='bg-gradient-to-b from-primary/0 via-primary/10 to-primary/0'>
 					<motion.div className='max-w-7xl mx-auto'
-						initial={{ opacity: 0, y: 20 }}
+						initial={{ opacity: 0, y: 50 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 1.5, delay: .9 }}
 
