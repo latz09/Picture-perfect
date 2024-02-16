@@ -1,46 +1,41 @@
 import Image from 'next/image';
-import Link from 'next/link';
+
 import WhileInView from './animations/WhileInView';
 import { motion } from 'framer-motion';
 
-const FramingTemplate = ({
-	title,
-	heading,
-	image,
-	imageDescription,
-	alt,
-
-}) => {
+const FramingTemplate = ({ title, heading, image, imageDescription, alt }) => {
 	return (
 		<div className='grid md:grid-cols-2 justify-items-center items-center text-gray-700 py-9 mx-4'>
 			<div className=''>
 				<WhileInView>
-					<div className='grid gap-1 tracking-wide '>
-						<h1 className='text-3xl md:text-5xl '>{title}</h1>
-						<p className='text-gray-500 text-lg md:text-xl '>{heading}</p>
-						<p className='mt-6 text-gray-600'>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla
-							malesuada pellentesque elit eget gravida cum sociis natoque. Eget
-							nullam non nisi est sit amet facilisis magna etiam. Semper eget
-							duis at tellus at urna condimentum mattis.
+					<div className='grid gap-1 tracking-wide place-items-center lg:place-items-start'>
+						<h1 className='text-4xl md:text-6xl '>{title}</h1>
+						<p className=' text-lg md:text-xl text-center lg:text-start'>
+							{heading}
 						</p>
-					
+						<motion.p
+							className='italic mt-2 hidden lg:block'
+							initial={{ opacity: 0, x: '20px' }}
+							whileInView={{ opacity: 1, x: 0 }}
+							transition={{ delay: 0.2, duration: 1.3 }}
+						>
+							{imageDescription}
+						</motion.p>
 					</div>
 				</WhileInView>
 			</div>
 			<div className=' py-5 md:p-16'>
-				<div className='shadow-lg grid gap-2 '>
+				<div className='shadow-lg shadow-primary/40 grid place-items-center w-5/6 mx-auto '>
 					<Image src={image} alt={alt} layout='intrinsic' />
-					<motion.p
-						className='md:text-center text-base md:text-lg font-bold  text-gray-500 py-7 px-2 tracking-wider'
-						initial={{ opacity: 0, x: '20px' }}
-						whileInView={{ opacity: 1, x: 0 }}
-						transition={{ delay: 0.2, duration: 1.3 }}
-					>
-						{imageDescription}
-					</motion.p>
 				</div>
+				<motion.p
+					className='italic mt-4 text-center lg:hidden'
+					initial={{ opacity: 0, x: '20px' }}
+					whileInView={{ opacity: 1, x: 0 }}
+					transition={{ delay: 0.2, duration: 1.3 }}
+				>
+					{imageDescription}
+				</motion.p>
 			</div>
 		</div>
 	);

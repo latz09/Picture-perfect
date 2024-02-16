@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import hero from '../../public/images/corporate/office.jpg';
-import WhileInView from '../utils/animations/WhileInView';
+
 import { AnimatePresence, motion } from 'framer-motion';
 
 const CorporateHero = () => {

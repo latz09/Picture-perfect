@@ -19,18 +19,7 @@ const CustomMade = () => {
 						vulputate odio ut enim. Scelerisque eleifend donec pretium vulputate
 						sapien nec sagittis aliquam malesuada.
 					</p>
-					<motion.div
-						initial={{ opacity: 0 }}
-						whileInView={{ opacity: 1 }}
-						transition={{ delay: 0.4, duration: 1.2 }}
-					>
-						<Link href={'/custom-framing'}>
-							<span className='btn-secondary'>
-								{' '}
-								Custom Framing{' '}
-							</span>
-						</Link>
-					</motion.div>
+			
 				</div>
 			</WhileInView>
 		</div>
