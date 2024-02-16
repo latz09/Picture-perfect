@@ -27,7 +27,7 @@ const WelcomeHero = () => {
 
 			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/20 via-dark/90 to-dark/40 px-2 '>
 				<div className='grid gap-4  tracking-widest '>
-					<h1 className='text-3xl md:text-7xl scale-y-125 text-primary font-tinos text-center font-bold px-4 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
+					<h1 className='text-3xl md:text-7xl  text-primary font-tinos text-center font-bold px-4 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
 					<motion.div
 						variants={delayVariant}
 						initial='hidden'
