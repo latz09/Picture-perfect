@@ -14,9 +14,7 @@ const CustomMade = () => {
 						<p className=' text-primary text-xl lg:text-3xl'>Just for You</p>
 					</div>
 					<p className='lg:w-2/3'>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
-						vulputate odio ut enim. 
+					From art and memorabilia to jerseys and heirlooms, our framing is as unique as your treasures. We combine craftsmanship with care to turn your valued items into prominent displays, ensuring each piece tells its story elegantly and safely.
 					</p>
 					<div>
 						<Link href='/custom-framing'>

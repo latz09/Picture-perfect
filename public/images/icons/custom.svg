@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512px" height="512px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   
+    .str0 {stroke:black;stroke-width:18.0001;stroke-linecap:round;stroke-linejoin:round}
+    .fil0 {fill:none}
+   
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+  <g id="_539189456">
+   <g>
+    <rect class="fil0 str0" x="38" y="231" width="436" height="272" id="id_101" style="stroke: rgb(227, 0, 21);"></rect>
+    <rect class="fil0 str0" x="73" y="265" width="367" height="203" id="id_102" style="stroke: rgb(227, 0, 15);"></rect>
+    <polyline class="fil0 str0" points="80,469 140,360 170,415 " id="id_103" style="stroke: rgb(230, 3, 18);"></polyline>
+    <polyline class="fil0 str0" points="141,469 232,303 322,469 " id="id_104" style="stroke: rgb(227, 0, 21);"></polyline>
+    <polyline class="fil0 str0" points="322,469 376,370 376,370 430,469 " id="id_105" style="stroke: rgb(230, 0, 15);"></polyline>
+    <path class="fil0 str0" d="M373 334c-22,0 -40,18 -40,40 0,-22 -18,-40 -40,-40 22,0 40,-17 40,-40 0,23 18,40 40,40z" id="id_106" style="stroke: rgb(227, 0, 21);"></path>
+   </g>
+   <line class="fil0 str0" x1="97" y1="231" x2="216" y2="79" id="id_107" style="stroke: rgb(227, 0, 21);"></line>
+   <line class="fil0 str0" x1="415" y1="231" x2="296" y2="79" id="id_108" style="stroke: rgb(230, 3, 18);"></line>
+   <circle class="fil0 str0" cx="256" cy="55" r="46" id="id_109" style="stroke: rgb(227, 0, 21);"></circle>
+  </g>
+ </g>
+</svg>

@@ -24,9 +24,9 @@ const CorporateHero = () => {
 							whileInView={{ opacity: 1 }}
 							transition={{ duration: 1.3, delay: 0.3 }}
 							exit={{ opacity: 0 }}
-							className='text-3xl md:text-6xl font-tinos '
+							className='text-3xl md:text-6xl font-tinos max-w-4xl mx-auto '
 						>
-							Commercial Services
+							Comprehensive Commercial Framing Services
 						</motion.h1>
 						<motion.p
 							initial={{ opacity: 0 }}
@@ -35,7 +35,7 @@ const CorporateHero = () => {
 							exit={{ opacity: 0 }}
 							className=' text-lg md:text-2xl text-gray-300 '
 						>
-							Elegantly framed artwork your clients can enjoy
+							From Small Projects to Government-Scale Endeavors
 						</motion.p>
 						<Link href={'/commercial-services'}>
 							<div className="mt-8">

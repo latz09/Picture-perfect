@@ -5,9 +5,9 @@ import CommercialHero from '../components/heros/CommercialHero';
 
 const Commercial = () => {
 	return (
-		<div className='grid gap-24 '>
+		<div className='grid gap-12  '>
 			<CommercialHero />
-			<div className="max-w-7xl mx-auto">
+			<div className="max-w-7xl mx-auto grid gap-16 px-3">
 				<Blurb />
 				<WholeSalePricing />
                 <AfterHours />

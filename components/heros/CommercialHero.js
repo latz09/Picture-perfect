@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const CommercialHero = () => {
 	return (
-		<div className='relative  h-[40vh] md:h-[80vh]'>
+		<div className='relative  h-[40vh] md:h-[50vh]'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
@@ -18,7 +18,7 @@ const CommercialHero = () => {
 			<motion.div
 				className='relative flex justify-center items-center h-full bg-dark text-light '
 				initial={{ opacity: 0.1 }}
-				animate={{ opacity: .93 }}
+				animate={{ opacity: .75 }}
 				transition={{ delay: 0.4, duration: 3.3 }}
 			>
 				<div className='grid gap-2 text-center justify-items-center tracking-widest  '>
