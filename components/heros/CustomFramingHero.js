@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const CustomFramingHero = () => {
 	return (
-		<div className='relative h-[45vh]  md:h-[60vh]'>
+		<div className='relative h-[40vh]  md:h-[60vh]'>
 			<div className='-z-10'>
 				<Image
 					src={hero}
