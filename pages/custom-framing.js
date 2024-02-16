@@ -7,9 +7,9 @@ import CustomFramingHero from '../components/heros/CustomFramingHero';
 
 const customFraming = () => {
 	return (
-		<div className='grid gap-12 '>
+		<div className='grid  '>
 			<CustomFramingHero />
-			<div className='lg:gap-16 gap-8 grid'>
+			<div className='lg:gap-16 gap-8 grid pt-12'>
 				<div className='bg-gradient-to-b from-primary/5 via-primary/5 to-primary/0'>
 					<div className='max-w-7xl mx-auto'>
 						<ArtFraming />
