@@ -24,7 +24,7 @@ const CorporateHero = () => {
 							whileInView={{ opacity: 1 }}
 							transition={{ duration: 1.3, delay: 0.3 }}
 							exit={{ opacity: 0 }}
-							className='text-3xl md:text-6xl font-robotoslab '
+							className='text-3xl md:text-6xl font-tinos '
 						>
 							Commercial Services
 						</motion.h1>
