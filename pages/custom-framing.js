@@ -6,7 +6,7 @@ import FramingTemplate from '../components/utils/FramingTemplate';
 
 const customFraming = () => {
 	return (
-		<div className='grid gap-16 '>
+		<div className='grid gap-4 '>
 			<div>
 				<CustomFramingHero />
 			</div>
