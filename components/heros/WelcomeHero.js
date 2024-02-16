@@ -10,7 +10,7 @@ const WelcomeHero = () => {
 			x: 1,
 			transition: {
 				delay: 0.5,
-				duration: 1.89,
+				duration: 1.9,
 			},
 		},
 	};
