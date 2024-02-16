@@ -4,16 +4,21 @@ import Memorabilia from '../components/customFraming/Memorabilia';
 import Preservation from '../components/customFraming/Preservation';
 
 import CustomFramingHero from '../components/heros/CustomFramingHero';
-
+import {motion } from 'framer-motion';
 const customFraming = () => {
 	return (
 		<div className='grid  '>
 			<CustomFramingHero />
 			<div className='lg:gap-16 gap-8 grid pt-12'>
 				<div className='bg-gradient-to-b from-primary/0 via-primary/10 to-primary/0'>
-					<div className='max-w-7xl mx-auto'>
+					<motion.div className='max-w-7xl mx-auto'
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 1.5, delay: .9 }}
+
+					>
 						<ArtFraming />
-					</div>
+					</motion.div>
 				</div>
 				<div className='bg-gray-50'>
 					<div className='max-w-7xl mx-auto'>
