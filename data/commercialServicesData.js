@@ -4,10 +4,10 @@ import wholesale from '../public/images/icons/wholesale.svg';
 
 export const servicesData = [
 	{
-		title: 'Whole Sale Pricing',
+		title: 'Value Pricing',
         image: wholesale,
 		description:
-			'Discover unmatched value with our Wholesale Pricing for all project sizes. From large-scale government commissions to individual needs, we deliver exceptional quality at competitive rates.',
+			'Discover unmatched value with our Value Pricing for all project sizes. From large-scale government commissions to individual needs, we deliver exceptional quality at competitive rates.',
 	},
 	{
 		title: 'Custom Framing',
@@ -17,10 +17,10 @@ export const servicesData = [
 		link: '/custom-framing',
 		linkText: 'learn more',
 	},
-	{
-		title: 'Delivery and Installation',
-        image: delivery,
-		description:
-			'We offer more than framing—count on us for expert delivery and installation. Our team ensures your pieces are perfectly presented, providing a hassle-free experience from conception to completion.',
-	},
+	// {
+	// 	title: 'Delivery and Installation',
+    //     image: delivery,
+	// 	description:
+	// 		'We offer more than framing—count on us for expert delivery and installation. Our team ensures your pieces are perfectly presented, providing a hassle-free experience from conception to completion.',
+	// },
 ];

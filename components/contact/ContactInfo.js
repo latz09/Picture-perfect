@@ -13,14 +13,7 @@ const ContactInfo = () => {
 					<span>{`(651) 455-7595`}</span>
 				</a>
 			</div>
-			<div className='flex space-x-3 items-center'>
-				<a href="mailto:info@pictureperfectmn.com" className='flex space-x-3 items-center'>
-					<span className='text-xl text-red-500'>
-						<MdEmail />
-					</span>
-					<span>{`info@pictureperfectmn.com`}</span>
-				</a>
-			</div>
+			
 			<div className='flex space-x-3 items-center'>
 				<a
 					target='_blank'

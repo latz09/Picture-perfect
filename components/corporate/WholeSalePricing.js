@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const WholeSalePricing = () => {
 	return (
 		<div className='pb-4 md:py-12'>
-			<div className='grid lg:grid-cols-3 gap-16 order-2 md:order-1'>
+			<div className='grid lg:grid-cols-2 gap-16 order-2 md:order-1'>
 				{servicesData.map((service, index) => (
 					<WhileInView key={index}>
 						<motion.div className='grid gap-4 place-items-center'
