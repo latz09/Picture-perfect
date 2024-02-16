@@ -7,11 +7,14 @@ const Footer = () => {
 	return (
 		<div className='grid gap-6 justify-center md:grid-cols-3 md:place-items-center  px-3 py-24 max-w-5xl mx-auto '>
 			<Hours />
-			<div className='grid gap-2  h-full w-full md:justify-center md:items-center'>
+			<div className='grid gap-2  h-full w-full md:justify-center md:items-center font-semibold font-tinos'>
 			
 				<div className='grid place-items-center gap-3'>
 					<Link href={'/'}>
 						<span className='cursor-pointer hover:text-gray-800'>Home</span>
+					</Link>
+					<Link href={'/about-us'}>
+						<span className='cursor-pointer hover:text-gray-800'>About Us</span>
 					</Link>
 					<Link href={'/custom-framing'}>
 						<span className='cursor-pointer hover:text-gray-800'>
@@ -22,7 +25,7 @@ const Footer = () => {
 						<span className='cursor-pointer hover:text-gray-800'>Commercial</span>
 					</Link>
 				</div>
-				<div className='justify-self-center mt-8'>
+				<div className='justify-self-center mt-8 font-questrial font-normal'>
 					<ContactInfo />
 				</div>
 			</div>

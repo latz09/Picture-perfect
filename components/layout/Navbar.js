@@ -41,22 +41,22 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='text-white py-1 tracking-wider z-40'>
+        <nav className='text-light py-1 tracking-wider z-40'>
             <div className='max-w-7xl mx-auto flex justify-between items-center px-8'>
                 {/* Home Link */}
                 <button className='py-1' onClick={() => setOpen(false)}>
                     <Link href={'/'}>
-                        <a className='text-3xl text-primary transition duration-700'>
+                        <a className='text-3xl transition duration-700'>
                             <div className='grid gap-1 place-items-center'>
                                 <AiFillHome />
-                                <span className='text-sm'>{`(651) 455-7595`}</span>
+                                <span className='text-sm font-tinos'>{`(651) 455-7595`}</span>
                             </div>
                         </a>
                     </Link>
                 </button>
 
                 {/* Desktop Links */}
-                <div className='hidden md:flex'>
+                <div className='hidden md:flex '>
                     {navLinks.map((link) => (
                         <div key={link.name} className='md:ml-8 text-lg md:my-0 my-7 text-center'>
                             <Link href={link.link}>
@@ -78,7 +78,7 @@ const Navbar = () => {
             <AnimatePresence mode='wait'>
                 {open && (
                     <motion.div
-                        className='fixed inset-0 z-50 bg-light/80 backdrop-blur text-white flex justify-center items-center'
+                        className='fixed inset-0 z-50 bg-light/80 backdrop-blur text-white flex justify-center items-center text-primary font-bold'
                         variants={dropDownVariant}
                         initial='hidden'
                         animate='visible'

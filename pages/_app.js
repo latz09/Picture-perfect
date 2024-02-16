@@ -27,6 +27,7 @@ function MyApp({ Component, pageProps, router }) {
 					initial='hidden'
 					animate='visible'
 					exit='exit'
+					
 				>
 					<Component {...pageProps} />
 				</motion.div>
