@@ -26,7 +26,8 @@ const WelcomeHero = () => {
 			/>
 
 			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/20 via-dark/90 to-dark/40 px-2 '>
-				<div className='grid gap-4   '>
+				<div className='grid gap-1   '>
+				
 					<h1 className='text-3xl md:text-7xl  text-primary font-tinos text-center font-bold px-4 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
 					<motion.div
 						variants={delayVariant}
@@ -45,7 +46,7 @@ const WelcomeHero = () => {
 							initial={{ opacity: 0 }}
 							animate={{ opacity: 1 }}
 							transition={{ delay: 1.2, duration: 1.2 }}
-							className="italic mt-4"
+							className="italic mt-6"
 						>
 							West Saint Paul, MN
 						</motion.p>
