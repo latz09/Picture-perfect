@@ -20,8 +20,10 @@ export default function Home() {
 			</Head>
 
 			<div className='grid gap-24'>
-				<WelcomeHero />
-				<About />
+				<div className="grid gap-12">
+					<WelcomeHero />
+					<About />
+				</div>
 				<FrameAnythingHero />
 				<FeaturedFraming />
 				<div>
