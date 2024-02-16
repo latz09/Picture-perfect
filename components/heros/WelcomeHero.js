@@ -16,7 +16,7 @@ const WelcomeHero = () => {
 	};
 
 	return (
-		<div className='relative  h-[65vh] z-10'>
+		<div className='relative  h-[55vh] lg:h-[65vh] z-10'>
 			<Image
 				src={hero}
 				alt=''
