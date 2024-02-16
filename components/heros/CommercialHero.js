@@ -17,7 +17,7 @@ const CommercialHero = () => {
 				/>
 			</div>
 			<motion.div
-				className='relative flex justify-center shadow-lg shadow-primary/40 items-center h-full bg-gradient-to-b from-dark via-dark/40 to-dark/0 text-light '
+				className='relative flex justify-center shadow-lg shadow-primary/40 items-center h-full bg-gradient-to-b from-dark via-dark/70 to-dark/0 text-light '
 			
 			>
 				<div className='grid gap-2 text-center justify-items-center tracking-widest  '>

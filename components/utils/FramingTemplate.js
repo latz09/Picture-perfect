@@ -32,9 +32,14 @@ const FramingTemplate = ({
 				</WhileInView>
 			</div>
 			<div className={`${index % 2 === 0 ? 'lg:order-2' : 'lg:order-1'}`}>
-				<div className='shadow-lg shadow-primary/40 grid place-items-center lg:w-2/3 mx-auto '>
+				<motion.div className='shadow-lg shadow-primary/40 grid place-items-center lg:w-2/3 mx-auto '
+					initial={{ opacity: 0, scale: .8 }}
+					whileInView={{ opacity: 1, scale: 1 }}
+					transition={{ delay: 0.2, duration: 1.3 }}
+
+				>
 					<Image src={image} alt={alt} layout='intrinsic' />
-				</div>
+				</motion.div>
 				<p
 					className='italic mt-4 text-center lg:hidden px-4'
 			

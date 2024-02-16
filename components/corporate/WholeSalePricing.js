@@ -2,6 +2,7 @@ import Link from 'next/link';
 import WhileInView from '../utils/animations/WhileInView';
 import { servicesData } from '../../data/commercialServicesData';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const WholeSalePricing = () => {
 	return (
@@ -9,7 +10,11 @@ const WholeSalePricing = () => {
 			<div className='grid lg:grid-cols-3 gap-16 order-2 md:order-1'>
 				{servicesData.map((service, index) => (
 					<WhileInView key={index}>
-						<div className='grid gap-4 place-items-center'>
+						<motion.div className='grid gap-4 place-items-center'
+							initial={{ opacity: 0, y: 100 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							transition={{ duration: 1, delay: index * 0.2 }}
+						>
 							<h1 className='text-2xl md:text-3xl font-tinos'>
 								{service.title}
 							</h1>
@@ -28,7 +33,7 @@ const WholeSalePricing = () => {
 									</div>
 								</Link>
 							)}
-						</div>
+						</motion.div>
 					</WhileInView>
 				))}
 			</div>

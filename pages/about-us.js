@@ -6,7 +6,7 @@ const AboutUsPage = () => {
 			<h1 className='text-4xl lg:text-5xl text-primary font-tinos text-center pt-16  '>
 				About Us
 			</h1>
-			<div className='grid gap-4  h-full  text-lg px-2 lg:text-xl text-center'>
+			<div className='grid gap-4  h-full  text-lg px-2 lg:text-xl text-center pb-4'>
 				<p>
 					<span className='font-bold font-tinos text-primary'>
 						{' '}
@@ -32,8 +32,13 @@ const AboutUsPage = () => {
 			</div>
 
 			<Link href='/custom-framing'>
-				<div className='grid place-items-center btn-secondary w-3/4 mx-auto'>
+				<div className='grid place-items-center btn-primary w-3/4 mx-auto'>
 					Custom Framing
+				</div>
+			</Link>
+			<Link href='/commercial-services'>
+				<div className='grid place-items-center btn-primary w-3/4 mx-auto'>
+					Commercial Services
 				</div>
 			</Link>
 		</div>
