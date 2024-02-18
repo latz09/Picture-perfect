@@ -57,9 +57,9 @@ const AboutUsPage = () => {
 						We can frame anything from Jerseys to shadow boxes to simple
 						posters, you name it and we can frame it!
 					</p>
-					<p>
+					<p className="font-semibold">
 						We have done jobs as small as simply replacing a piece of glass, to
-						an entire office building with over 400 pieces needed
+						an entire office building with over 400 pieces needed.
 					</p>
 
 					<p>
