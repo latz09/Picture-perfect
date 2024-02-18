@@ -13,6 +13,7 @@ const CustomFramingHero = () => {
 					layout='fill'
 					objectFit='cover'
 					objectPosition='left'
+					priority={true}
 				/>
 			</div>
 

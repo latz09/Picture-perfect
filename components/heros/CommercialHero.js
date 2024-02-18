@@ -13,6 +13,7 @@ const CommercialHero = () => {
 					layout='fill'
 					objectFit='cover'
 					objectPosition='center'
+					priority={true}
 				/>
 			</div>
 			<motion.div className='relative flex justify-center shadow-lg shadow-primary/40 items-center h-full bg-gradient-to-b from-dark/10 via-dark/90 to-dark/10 text-light '>

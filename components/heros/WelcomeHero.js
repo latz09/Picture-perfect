@@ -23,6 +23,7 @@ const WelcomeHero = () => {
 				layout='fill'
 				objectFit='cover'
 				objectPosition='bottom'
+				priority={true}
 			/>
 
 			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/0 via-dark/60 to-dark/0 px-2 '>

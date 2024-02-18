@@ -27,7 +27,7 @@ export default function Home() {
 				/>
 				<meta property='og:image' content='/images/picture-framing.jpg' />
 				<meta property='og:type' content='website' />
-				<meta property='og:url' content='https://www.yourwebsite.com' />
+				<meta property='og:url' content='http://www.pictureperfectmn.com/' />
 
 				{/* Twitter */}
 				<meta name='twitter:card' content='summary_large_image' />
@@ -42,9 +42,9 @@ export default function Home() {
 				/>
 				<meta name='robots' content='index, follow' />
 				<meta name='author' content='Latz Web Design' />
-				<meta name='copyright' content='Copyright ©2023 Latz Web Design' />
+				<meta name='copyright' content='Copyright ©2024 Latz Web Design' />
 
-				<link rel='canonical' href='https://www.yourwebsite.com' />
+				<link rel='canonical' href='http://www.pictureperfectmn.com/' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
