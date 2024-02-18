@@ -33,7 +33,7 @@ const CorporateHero = () => {
 							whileInView={{ opacity: 1 }}
 							transition={{ duration: 1.5, delay: .7 }}
 							exit={{ opacity: 0 }}
-							className=' text-lg md:text-2xl text-gray-300 '
+							className=' text-lg md:text-2xl text-gray-300 px-4'
 						>
 							From Small Projects to Government-Scale Endeavors
 						</motion.p>
