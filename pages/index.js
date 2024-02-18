@@ -45,7 +45,7 @@ export default function Home() {
 				<meta name='copyright' content='Copyright ©2024 Latz Web Design' />
 
 				<link rel='canonical' href='http://www.pictureperfectmn.com/' />
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/favicon.png' />
 			</Head>
 
 			<div className='grid gap-24'>
