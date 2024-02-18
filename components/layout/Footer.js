@@ -47,7 +47,7 @@ const CopyRight = () => {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<div className='text-center mb-3 mt-2 px-2 text-sm'>
+		<div className='text-center pb-3 mt-2 px-2 text-sm'>
 			<a
 				href='https://www.latzwebdesign.com'
 				target='_blank'

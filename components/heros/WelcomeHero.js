@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import hero from '../../public/images/front-of-building2.jpg';
+import hero from '../../public/images/picture-framing.jpg';
 import { motion } from 'framer-motion';
 
 const WelcomeHero = () => {

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import hero from '../../public/images/corporate/office.jpg';
+import hero from '../../public/images/corporate/commercial-services.png';
 
 import { AnimatePresence, motion } from 'framer-motion';
 

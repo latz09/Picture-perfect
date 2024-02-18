@@ -1,5 +1,5 @@
 import prince from '../public/images/not-to-big/prince.jpg';
-import comic from '../public/images/preservation/step-4.jpg';
+import comic from '../public/images/newspaper.jpg';
 import marathon from '../public/images/memorabilia/marathon.jpg';
 import jersey from '../public/images/jersey-mn.jpg';
 
