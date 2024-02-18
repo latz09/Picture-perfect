@@ -21,7 +21,7 @@ const CommercialHero = () => {
 					<h1 className='text-3xl md:text-6xl font-tinos '>
 						Commercial Services
 					</h1>
-					<div className=' text-lg md:text-2xl text-white tracking-wider '>
+					<div className=' text-lg md:text-2xl text-white tracking-wider px-4'>
 						<span className=''> Competitevely priced </span>
 						to impress your clients and inspire your staff
 					</div>
