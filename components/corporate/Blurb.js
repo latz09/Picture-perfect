@@ -5,7 +5,7 @@ const Blurb = () => {
 	return (
 		<WhileInView>
 			<div className='max-w-3xl mx-auto text-center '>
-				<span className='text-lg'>
+				<span className='text-lg lg:text-xl leading-8'>
 					Delve into a world where each frame tells a story and every service is
 					tailored to perfection. At{' '}
 					<span className='text-primary font-bold font-tinos'>

@@ -13,15 +13,17 @@ const CustomMade = () => {
 						</h1>
 						<p className=' text-primary text-xl lg:text-3xl'>Just for You</p>
 					</div>
-					<p className='lg:w-2/3'>
-					From art and memorabilia to jerseys and heirlooms, our framing is as unique as your treasures. We combine craftsmanship with care to turn your valued items into prominent displays, ensuring each piece tells its story elegantly and safely.
+					<p className='lg:w-3/5 leading-7 lg:text-lg'>
+						From art and memorabilia to jerseys and heirlooms, our framing is as
+						unique as your treasures. We combine craftsmanship with care to turn
+						your valued items into prominent displays, ensuring each piece tells
+						its story elegantly and safely.
 					</p>
-					<div className="mt-4">
+					<div className='mt-4'>
 						<Link href='/custom-framing'>
 							<a className='btn-secondary'>Learn More</a>
 						</Link>
 					</div>
-			
 				</div>
 			</WhileInView>
 		</div>

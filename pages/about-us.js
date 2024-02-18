@@ -6,7 +6,7 @@ const AboutUsPage = () => {
 			<h1 className='text-4xl lg:text-5xl text-primary font-tinos text-center pt-16  '>
 				About Us
 			</h1>
-			<div className='grid gap-4  h-full  text-lg px-2 lg:text-xl text-center pb-4'>
+			<div className='grid gap-4  h-full  text-lg px-4 lg:text-xl text-center pb-4 leading-8'>
 				<p>
 					<span className='font-bold font-tinos text-primary'>
 						{' '}

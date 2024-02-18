@@ -7,7 +7,7 @@ const Commercial = () => {
 	return (
 		<div className='grid gap-12  '>
 			<CommercialHero />
-			<div className="max-w-7xl mx-auto grid gap-16 px-3">
+			<div className="max-w-7xl mx-auto grid gap-16 px-4">
 				<Blurb />
 				<WholeSalePricing />
                 <AfterHours />

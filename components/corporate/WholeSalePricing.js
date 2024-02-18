@@ -15,7 +15,7 @@ const WholeSalePricing = () => {
 							whileInView={{ opacity: 1, y: 0 }}
 							transition={{ duration: 1, delay: index * 0.2 }}
 						>
-							<h1 className='text-2xl md:text-3xl font-tinos'>
+							<h1 className='text-2xl md:text-4xl font-tinos'>
 								{service.title}
 							</h1>
 							<div>
@@ -23,7 +23,7 @@ const WholeSalePricing = () => {
 									height={100} width={100}
 								/>
 							</div>
-							<p className='text-center'>{service.description}</p>
+							<p className='text-center text-lg leading-8'>{service.description}</p>
 							{service.link && (
 								<Link href={service.link}>
 									<div className='mt-2'>

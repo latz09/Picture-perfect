@@ -30,3 +30,10 @@ const ContactInfo = () => {
 };
 
 export default ContactInfo;
+
+
+{/* <div className='text-2xl font-bold py-8 text-center' onClick={toggleMenu}>
+<Link href='/'>
+	<a className='font-tinos'>Home</a>
+</Link>
+</div> */}
