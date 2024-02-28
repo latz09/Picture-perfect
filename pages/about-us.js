@@ -36,7 +36,7 @@ const AboutUsPage = () => {
 				<meta name='copyright' content='Copyright ©2024 Latz Web Design' />
 
 				<link rel='canonical' href='http://www.pictureperfectmn.com/' />
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/favicon.png' />
 			</Head>
 			<div className=' grid gap-8 max-w-3xl mx-auto '>
 				<h1 className='text-4xl lg:text-5xl text-primary font-tinos text-center pt-16  '>
