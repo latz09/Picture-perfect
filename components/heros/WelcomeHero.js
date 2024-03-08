@@ -34,7 +34,7 @@ const WelcomeHero = () => {
 						variants={delayVariant}
 						initial='hidden'
 						animate='visible'
-						className=' text-xl md:text-2xl  text-center text-light'
+						className=' text-2xl md:text-3xl  text-center text-light'
 					>
 						<motion.p
 							initial={{ opacity: 0 }}
