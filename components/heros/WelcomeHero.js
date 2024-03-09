@@ -27,14 +27,14 @@ const WelcomeHero = () => {
 			/>
 
 			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/0 via-dark/80 to-dark/0 px-2 '>
-				<div className='grid gap-1   '>
+				<div className='grid gap-1  bg-gradient-to-b from-dark/0 via-dark/60 to-dark/0 '>
 				
-					<h1 className='text-5xl md:text-7xl  text-light font-tinos text-center font-bold px-2 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
+					<h1 className='text-4xl md:text-7xl  text-light font-tinos text-center font-bold px-2 md:px-0'>{`Picture Perfect Art & Frame`}</h1>
 					<motion.div
 						variants={delayVariant}
 						initial='hidden'
 						animate='visible'
-						className=' text-2xl md:text-3xl lg:text-4xl  text-center text-light'
+						className=' text-2xl md:text-3xl lg:text-4xl  text-center text-light '
 					>
 						<motion.p
 							initial={{ opacity: 0 }}
