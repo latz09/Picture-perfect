@@ -7,10 +7,11 @@ import { motion } from 'framer-motion';
 const WholeSalePricing = () => {
 	return (
 		<div className='pb-4 md:py-12'>
-			<div className='grid lg:grid-cols-2 gap-16 order-2 md:order-1'>
+			<div className='grid lg:grid-cols-2 gap-16 lg:gap-32 order-2 md:order-1'>
 				{servicesData.map((service, index) => (
 					<WhileInView key={index}>
-						<motion.div className='grid gap-4 place-items-center'
+						<motion.div
+							className='grid gap-4 place-items-center'
 							initial={{ opacity: 0, y: 100 }}
 							whileInView={{ opacity: 1, y: 0 }}
 							transition={{ duration: 1, delay: index * 0.2 }}
@@ -19,11 +20,16 @@ const WholeSalePricing = () => {
 								{service.title}
 							</h1>
 							<div>
-								<Image src={service.image} alt={service.title}
-									height={100} width={100}
+								<Image
+									src={service.image}
+									alt={service.title}
+									height={100}
+									width={100}
 								/>
 							</div>
-							<p className='text-center text-lg leading-8'>{service.description}</p>
+							<p className='text-center text-lg lg:text-xl	 leading-8 mx-8'>
+								{service.description}
+							</p>
 							{service.link && (
 								<Link href={service.link}>
 									<div className='mt-2'>

@@ -4,8 +4,8 @@ import WhileInView from '../utils/animations/WhileInView';
 const Blurb = () => {
 	return (
 		<WhileInView>
-			<div className='max-w-3xl mx-auto text-center '>
-				<span className='text-lg lg:text-xl leading-8'>
+			<p className='max-w-3xl mx-auto text-center lg:leading-10'>
+				<span className='text-lg lg:text-2xl '>
 					Delve into a world where each frame tells a story and every service is
 					tailored to perfection. At{' '}
 					<span className='text-primary font-bold font-tinos'>
@@ -17,7 +17,7 @@ const Blurb = () => {
 					with competitive pricing and personalized service, ensures your
 					framing experience is unmatched. 
 				</span>
-			</div>
+			</p>
 		</WhileInView>
 	);
 };
