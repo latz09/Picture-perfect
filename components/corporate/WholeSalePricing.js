@@ -27,7 +27,7 @@ const WholeSalePricing = () => {
 									width={100}
 								/>
 							</div>
-							<p className='text-center text-lg lg:text-xl	 leading-8 mx-8'>
+							<p className='text-center text-lg lg:text-xl	 leading-8 lg:mx-8'>
 								{service.description}
 							</p>
 							{service.link && (
