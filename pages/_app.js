@@ -1,6 +1,7 @@
 import Layout from '../components/layout/Layout';
 import '../styles/globals.css';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Analytics } from "@vercel/analytics/react"
 
 function MyApp({ Component, pageProps, router }) {
 	const pageAnimateVariable = {
@@ -20,6 +21,7 @@ function MyApp({ Component, pageProps, router }) {
 	return (
 		<Layout>
 			{' '}
+			<Analytics />
 			<AnimatePresence mode='wait'>
 				<motion.div
 					key={router.route}

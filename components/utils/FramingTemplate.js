@@ -42,7 +42,7 @@ const FramingTemplate = ({
 					transition={{ delay: 0.2, duration: 1.3 }}
 
 				>
-					<Image src={image} alt={alt} layout='intrinsic' />
+					<Image src={image} alt={alt}  />
 				</motion.div>
 				<p
 					className=' mt-4 text-center lg:hidden px-4 text-lg'

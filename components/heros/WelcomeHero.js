@@ -17,14 +17,16 @@ const WelcomeHero = () => {
 
 	return (
 		<div className='relative  h-[50vh] lg:h-[80vh] z-10'>
-			<Image
-				src={hero}
-				alt=''
-				layout='fill'
-				objectFit='cover'
-				objectPosition='bottom'
-				priority={true}
-			/>
+		<Image
+  src={hero}
+  alt=''
+  fill
+  style={{
+    objectFit: 'cover',
+    objectPosition: 'bottom'
+  }}
+  priority
+/>
 
 			<div className='relative flex justify-center items-center h-full bg-gradient-to-t from-dark/0 via-dark/80 to-dark/0 px-4 '>
 				<div className='grid gap-2  bg-gradient-to-b from-dark/0 via-dark/60 to-dark/0 '>

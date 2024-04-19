@@ -21,7 +21,7 @@ const CustomMade = () => {
 					</p>
 					<div className='mt-4'>
 						<Link href='/custom-framing'>
-							<a className='btn-secondary'>Learn More</a>
+							<span className='btn-secondary'>Learn More</span>
 						</Link>
 					</div>
 				</div>

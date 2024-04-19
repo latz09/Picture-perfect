@@ -8,7 +8,7 @@ const About = () => {
 		<div className=' max-w-7xl mx-auto py-8   grid '>
 			<div className='grid gap-8 md:grid-cols-2 items-center justify-items-center mx-4'>
 				<div className='w-1/3'>
-					<Image src={mnOutline} alt='' layout='intrinsic' />
+					<Image src={mnOutline} alt=''  />
 				</div>
 				<WhileInView>
 					<div className='grid gap-6'>

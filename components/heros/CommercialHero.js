@@ -10,10 +10,12 @@ const CommercialHero = () => {
 				<Image
 					src={hero}
 					alt=''
-					layout='fill'
-					objectFit='cover'
-					objectPosition='center'
-					priority={true}
+					fill
+					style={{
+						objectFit: 'cover',
+						objectPosition: 'center',
+					}}
+					priority
 				/>
 			</div>
 			<motion.div className='relative flex justify-center shadow-lg shadow-primary/40 items-center h-full bg-gradient-to-b from-dark/0 via-dark/80 to-dark/10 text-light  '>

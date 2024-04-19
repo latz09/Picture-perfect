@@ -12,7 +12,7 @@ const AboutUsPage = () => {
 					keywords='picture framing, custom framing, picture frames, custom picture frames, picture framing shop, custom picture framing'
 				/>
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
-				<meta charset='UTF-8' />
+				<meta charSet='UTF-8' />
 				{/* Facebook/Twiiter */}
 				<meta property='og:title' content='Picture Perfect West Saint Paul' />
 				<meta

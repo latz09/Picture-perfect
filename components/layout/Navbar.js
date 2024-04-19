@@ -46,12 +46,12 @@ const Navbar = () => {
 				{/* Home Link */}
 				<button className='py-1' onClick={() => setOpen(false)}>
 					<Link href={'/'}>
-						<a className='text-3xl transition duration-700'>
+						<div className='text-3xl transition duration-700'>
 							<div className='grid gap-1 place-items-center'>
 								<AiFillHome />
 								<span className='text-sm lg:text-base font-tinos'>{`(651) 455-7595`}</span>
 							</div>
-						</a>
+						</div>
 					</Link>
 				</button>
 
@@ -63,9 +63,9 @@ const Navbar = () => {
 							className='md:ml-8 text-lg md:my-0 my-7 text-center'
 						>
 							<Link href={link.link}>
-								<a className='hover:opacity-70 transition duration-700 font-bold '>
+								<div className='hover:opacity-70 transition duration-700 font-bold '>
 									{link.name}
-								</a>
+								</div>
 							</Link>
 						</div>
 					))}
@@ -96,7 +96,7 @@ const Navbar = () => {
 								onClick={toggleMenu}
 							>
 								<Link href='/'>
-									<a className='font-tinos'>Home</a>
+									<span className='font-tinos'>Home</span>
 								</Link>
 							</div>
 							{navLinks.map((link) => (
@@ -106,7 +106,7 @@ const Navbar = () => {
 									onClick={toggleMenu}
 								>
 									<Link href={link.link}>
-										<a>{link.name}</a>
+										<span>{link.name}</span>
 									</Link>
 								</div>
 							))}
