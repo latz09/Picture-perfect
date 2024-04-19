@@ -48,7 +48,7 @@ const FrameAnythingHero = () => {
                                 initial='hidden'
                                 whileInView='show'
                                 exit='exit'
-                                className='flex flex-wrap justify-center text-light'
+                                className='flex flex-wrap lg:justify-center text-light'
                             >
                                 {phrase.map((word, index) => (
                                     <motion.span key={index} variants={item} className='mx-2'>
