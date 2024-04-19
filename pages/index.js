@@ -36,10 +36,7 @@ export default function Home() {
 					name='twitter:description'
 					content='Custom picture frame shop in West Saint Paul, Minnesota. Quality framing at affordable prices since 1990.'
 				/>
-				<meta
-					name='twitter:image'
-					content='/images/picture-framing.jpg'
-				/>
+				<meta name='twitter:image' content='/images/picture-framing.jpg' />
 				<meta name='robots' content='index, follow' />
 				<meta name='author' content='Latz Web Design' />
 				<meta name='copyright' content='Copyright ©2024 Latz Web Design' />
@@ -48,11 +45,9 @@ export default function Home() {
 				<link rel='icon' href='/favicon.png' />
 			</Head>
 
-			<div className='grid gap-24'>
-				<div className='grid gap-12'>
-					<WelcomeHero />
-					<About />
-				</div>
+			<div className='grid gap-24 lg:gap-32'>
+				<WelcomeHero />
+				<About />
 				<FrameAnythingHero />
 				<FeaturedFraming />
 				<div>

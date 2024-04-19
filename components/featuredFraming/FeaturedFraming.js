@@ -3,7 +3,7 @@ import { featuredFraming } from '../../data/featuredFraming';
 import { motion } from 'framer-motion';
 const FeaturedFraming = () => {
 	return (
-		<div className='grid  lg:grid-cols-4 max-w-7xl mx-auto gap-24 '>
+		<div className='grid  lg:grid-cols-4 max-w-7xl mx-auto gap-24 lg:gap-12 '>
 			{featuredFraming.map((item, index) => (
 				<motion.div
 					key={item.title}

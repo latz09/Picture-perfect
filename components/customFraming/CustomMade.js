@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import WhileInView from '../utils/animations/WhileInView';
-import { motion } from 'framer-motion';
+
 
 const CustomMade = () => {
 	return (

@@ -41,7 +41,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className='text-light py-1 tracking-wider z-40 font'>
+		<nav className='text-light py-2 tracking-wide z-40'>
 			<div className='max-w-7xl mx-auto flex justify-between items-center px-8 '>
 				{/* Home Link */}
 				<button className='py-1' onClick={() => setOpen(false)}>
@@ -49,7 +49,7 @@ const Navbar = () => {
 						<a className='text-3xl transition duration-700'>
 							<div className='grid gap-1 place-items-center'>
 								<AiFillHome />
-								<span className='text-sm font-tinos'>{`(651) 455-7595`}</span>
+								<span className='text-sm lg:text-base font-tinos'>{`(651) 455-7595`}</span>
 							</div>
 						</a>
 					</Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
 							className='md:ml-8 text-lg md:my-0 my-7 text-center'
 						>
 							<Link href={link.link}>
-								<a className='hover:opacity-70 transition duration-700'>
+								<a className='hover:opacity-70 transition duration-700 font-bold '>
 									{link.name}
 								</a>
 							</Link>

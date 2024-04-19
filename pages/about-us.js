@@ -53,7 +53,7 @@ const AboutUsPage = () => {
 						quality and design services at the same time. All work is done on
 						the premises and handled with care.
 					</p>
-					<p className="leading-7 lg:leading-9 font-semibold">
+					<p className="leading-7 lg:leading-9 font-semibold scale-105">
 						We can frame anything from Jerseys to shadow boxes to simple
 						posters, you name it and we can frame it!
 					</p>
