@@ -16,9 +16,9 @@ const CommercialHero = () => {
 					priority={true}
 				/>
 			</div>
-			<motion.div className='relative flex justify-center shadow-lg shadow-primary/40 items-center h-full bg-gradient-to-b from-dark/10 via-dark/90 to-dark/10 text-light '>
-				<div className='grid gap-2 text-center justify-items-center   mt-16'>
-					<h1 className='text-3xl md:text-6xl lg:text-7xl font-tinos '>
+			<motion.div className='relative flex justify-center shadow-lg shadow-primary/40 items-center h-full bg-gradient-to-b from-dark/0 via-dark/80 to-dark/10 text-light  '>
+				<div className='grid gap-2 text-center justify-items-center   '>
+					<h1 className='text-4xl md:text-6xl lg:text-7xl font-tinos '>
 						Commercial Services
 					</h1>
 					<div className=' text-lg md:text-2xl lg:text-3xl text-white tracking-wider '>

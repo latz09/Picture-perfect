@@ -16,12 +16,12 @@ const CorporateHero = () => {
                     objectPosition='center'
                 />
             </div>
-            <div className='relative flex justify-center items-center bg-dark/80 h-full z-10'>
+            <div className='relative flex justify-center items-center bg-gradient-to-b from-dark/70 via-dark/80 to-dark/70 h-full z-10'>
                 <AnimatePresence>
                     <div className='grid gap-3 text-center tracking-widest text-light'>
                         <motion.h1
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
+                            initial={{ opacity: 0, scale:.9  }}
+                            whileInView={{ opacity: 1, scale:1  }}
                             transition={{ duration: 1.3, delay: 0.3 }}
                             exit={{ opacity: 0 }}
                             className='text-4xl md:text-6xl font-tinos max-w-4xl mx-auto'
@@ -29,8 +29,8 @@ const CorporateHero = () => {
                             Comprehensive Commercial Framing Services
                         </motion.h1>
                         <motion.p
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
+                            initial={{ opacity: 0}}
+                            whileInView={{ opacity: 1, scale:1 }}
                             transition={{ duration: 1.5, delay: 0.7 }}
                             exit={{ opacity: 0 }}
                             className='text-lg md:text-2xl text-gray-300 px-4'

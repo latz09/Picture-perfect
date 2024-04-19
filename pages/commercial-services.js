@@ -41,7 +41,7 @@ const Commercial = () => {
 				<link rel='canonical' href='http://www.pictureperfectmn.com/' />
 				<link rel='icon' href='/favicon.png' />
 			</Head>
-			<div className='grid gap-12  '>
+			<div className='grid gap-24  '>
 				<CommercialHero />
 				<div className='max-w-7xl mx-auto grid gap-16 px-4'>
 					<Blurb />
