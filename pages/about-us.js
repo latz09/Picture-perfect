@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const AboutUsPage = () => {
 	return (
-		<div>
+		<div className="bg-gradient-to-b from-primary/0 via-primary/5 to-primary/0 ">
 			<Head>
 				<title>About Picture Perfect West Saint Paul</title>
 				<meta
@@ -42,8 +42,8 @@ const AboutUsPage = () => {
 				<h1 className='text-4xl lg:text-5xl text-primary font-tinos text-center pt-16  '>
 					About Us
 				</h1>
-				<div className='grid gap-4  h-full  text-lg px-4 lg:text-xl text-center pb-4 leading-8'>
-					<p>
+				<div className='grid gap-4  h-full  text-lg px-4 lg:text-2xl text-center pb-4 '>
+					<p className="leading-7 lg:leading-9">
 						<span className='font-bold font-tinos text-primary'>
 							{' '}
 							Picture Perfect Art & Frame{' '}
@@ -53,16 +53,16 @@ const AboutUsPage = () => {
 						quality and design services at the same time. All work is done on
 						the premises and handled with care.
 					</p>
-					<p>
+					<p className="leading-7 lg:leading-9">
 						We can frame anything from Jerseys to shadow boxes to simple
 						posters, you name it and we can frame it!
 					</p>
-					<p className="font-semibold">
+					<p className="leading-7 lg:leading-9 font-semibold">
 						We have done jobs as small as simply replacing a piece of glass, to
 						an entire office building with over 400 pieces needed.
 					</p>
 
-					<p>
+					<p className="leading-7 lg:leading-9">
 						Stop in and let us give you a no obligation quote on your project.
 					</p>
 				</div>
