@@ -12,16 +12,20 @@ const FramingTemplate = ({
 	index,
 }) => {
 	return (
-		<div className='grid lg:grid-cols-2  '>
+		<motion.div className='grid lg:grid-cols-2  '
+			initial={{ y: 60 }}
+			whileInView={{ y: 0 }}
+			transition={{ delay: 0.2, duration: .9 }}
+		>
 			<div className={`${index % 2 === 0 ? 'lg:order-1' : 'lg:order-2'} place-self-center` }>
 				<WhileInView>
-					<div className='grid gap-1 tracking-wide place-items-center lg:place-items-start px-4'>
-						<h1 className='text-3xl lg:text-5xl text-primary font-tinos'>{title}</h1>
-						<p className='font-semibold text-lg lg:text-xl text-center lg:text-start mb-4 lg:mb-0'>
+					<div className='grid gap-2 tracking-wide place-items-center lg:place-items-center text-center px-4'>
+						<h1 className='text-4xl lg:text-6xl text-primary font-tinos'>{title}</h1>
+						<p className='font-semibold text-lg lg:text-2xl  mb-4 lg:mb-0'>
 							{heading}
 						</p>
 						<motion.p
-							className='italic mt-2 hidden lg:block'
+							className='text-lg  mt-2 hidden lg:block font-italic'
 							initial={{ opacity: 0, x: '20px' }}
 							whileInView={{ opacity: 1, x: 0 }}
 							transition={{ delay: 0.2, duration: 1.3 }}
@@ -41,13 +45,13 @@ const FramingTemplate = ({
 					<Image src={image} alt={alt} layout='intrinsic' />
 				</motion.div>
 				<p
-					className='italic mt-4 text-center lg:hidden px-4'
+					className=' mt-4 text-center lg:hidden px-4 text-lg'
 			
 				>
 					{imageDescription}
 				</p>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 

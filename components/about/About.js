@@ -11,15 +11,15 @@ const About = () => {
 					<Image src={mnOutline} alt='' layout='intrinsic' />
 				</div>
 				<WhileInView>
-					<div className='grid gap-4'>
-						<h1 className='text-2xl  md:text-2xl text-center md:text-start'>
+					<div className='grid gap-6'>
+						<p className='text-2xl  md:text-2xl lg:text-3xl text-center'>
 							<span className='text-primary font-bold'>
 								{' '}
 								{`Picture Perfect Art & Frame`}{' '}
 							</span>{' '}
 							has been serving the art and custom framing needs of the Twin
 							Cities since 1990.
-						</h1>
+						</p>
 						<div className='btn-primary lg:w-1/2 mx-auto'>
 							<Link href='/about-us' className=''>
 								<span className=''>Learn More About Us</span>

@@ -4,7 +4,7 @@ import WhileInView from '../utils/animations/WhileInView';
 const Blurb = () => {
 	return (
 		<WhileInView>
-			<p className='max-w-3xl mx-auto text-center lg:leading-10'>
+			<p className='max-w-3xl mx-auto text-center leading-8 lg:leading-10'>
 				<span className='text-lg lg:text-2xl '>
 					Delve into a world where each frame tells a story and every service is
 					tailored to perfection. At{' '}

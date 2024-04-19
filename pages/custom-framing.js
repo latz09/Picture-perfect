@@ -47,7 +47,7 @@ const customFraming = () => {
 			<div>
 				<CustomFramingHero />
 			</div>
-			<div className='lg:gap-24 gap-16 grid pt-12 max-w-5xl mx-auto py-16 '>
+			<div className='lg:gap-24 gap-24 grid pt-12 max-w-5xl mx-auto py-16 '>
 				{customFramingData.map((item, index) => (
 					<FramingTemplate
 						key={index}
