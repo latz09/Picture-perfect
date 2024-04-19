@@ -53,11 +53,11 @@ const AboutUsPage = () => {
 						quality and design services at the same time. All work is done on
 						the premises and handled with care.
 					</p>
-					<p className="leading-7 lg:leading-9">
+					<p className="leading-7 lg:leading-9 font-semibold">
 						We can frame anything from Jerseys to shadow boxes to simple
 						posters, you name it and we can frame it!
 					</p>
-					<p className="leading-7 lg:leading-9 font-semibold">
+					<p className="leading-7 lg:leading-9 ">
 						We have done jobs as small as simply replacing a piece of glass, to
 						an entire office building with over 400 pieces needed.
 					</p>
