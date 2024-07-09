@@ -42,6 +42,7 @@ export const RecentPiece = ({ image, title, description }) => {
 						width={200}
 						height={200}
 						className=''
+                        priority
 					/>
 				</div>
 				<div className='grid gap-1 p-4 border-t border-primary/40 '>

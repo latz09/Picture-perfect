@@ -19,15 +19,15 @@ const RecentWorkhero = ({ image, heading, subheading, recentWorkHeading }) => {
 				<div className='bg-dark flex flex-col justify-between flex-grow px-4 pt-8 pb-12 text-light'>
 					<div className='flex flex-col gap-2 justify-center h-full text-left'>
 						<h1 className='text-2xl font-bold'>{heading}</h1>
-						<h2 className=' mt-2'>{subheading}</h2>
+						<h2 className='text-lg leading-8 mt-2'>{subheading}</h2>
 					</div>
 				</div>
 			</div>
 			{/* For screen sizes 'lg' and above */}
 			<div className='hidden lg:flex lg:col-span-3 bg-dark flex-col justify-between px-20 py-16 relative text-light'>
 				<div className='flex flex-col gap-2 lg:gap-4 justify-center h-full max-w-7xl mx-auto px-4 text-left'>
-					<h1 className='text-4xl font-bold'>{heading}</h1>
-					<h2 className='text-xl mt-2'>{subheading}</h2>
+					<h1 className='text-4xl xl:text-5xl font-bold'>{heading}</h1>
+					<h2 className='text-xl xl:text-2xl mt-2 leading-7'>{subheading}</h2>
 				</div>
 				<div className='absolute bottom-3 right-3 text-light flex items-center gap-3 m-2'>
 					<span className='font-bold'>{recentWorkHeading}</span>
