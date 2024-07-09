@@ -1,3 +1,5 @@
+"use client"
+
 import Link from 'next/link';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiFillHome } from 'react-icons/ai';
