@@ -26,7 +26,7 @@ const CustomFramingHero = () => {
 					</h1>
 
 					<div className='text-light text-xl md:text-3xl grid gap-1 justify-items-center'>
-						<span className='text-primary font-bold'>Get inspired</span>
+						<span className='text-primary font-bold'>Get inspired.</span>
 						<span className='text-5xl animate-pulse'>
 							<MdKeyboardArrowDown />
 						</span>

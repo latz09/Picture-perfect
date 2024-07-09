@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const FeaturedItem = ({ image, title }) => {
 	return (
-		<div className="">
+		<div className="`">
 			<div className='relative text-center grid shadow-lg  '>
 				<Image src={image} alt={title} height={380} width={320} className="rounded-sm"/>
 
