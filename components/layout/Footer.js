@@ -28,6 +28,11 @@ const Footer = () => {
 								Commercial Services
 							</span>
 						</Link>
+						<Link href={'/recent-work'}>
+							<span className='cursor-pointer hover:text-gray-800'>
+								Recent Work
+							</span>
+						</Link>
 					</div>
 					<div className='justify-self-center mt-8 font-questrial font-normal'>
 						<ContactInfo />

@@ -30,30 +30,34 @@ export const RecentPiece = ({ image, title, description }) => {
 
 	return (
 		<>
-			<div
-				className='relative grid place-items-center border border-primary/20 rounded-sm bg-primary/5 shadow cursor-pointer'
+			<motion.div
+				className='h-full relative flex flex-col justify-between border border-primary/20 rounded-sm bg-primary/5 shadow cursor-pointer'
 				onClick={openModal}
+				initial={{ opacity: 0, y: 80 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				transition={{ duration: 0.5 }}
+				viewport={{ once: true }}
 			>
 				<FaExpandAlt className='absolute top-2 right-2 text-primary/60 text-xl m-2' />
-				<div className='p-16 relative'>
+				<div className='p-16 relative  h-full grid place-items-center'>
 					<Image
 						src={image}
 						alt='recent piece'
 						width={200}
 						height={200}
-						className=''
-                        priority
+						className='rounded shadow-lg shadow-primary/20'
+						priority
 					/>
 				</div>
 				<div className='grid gap-1 p-4 border-t border-primary/40 '>
 					<h1 className='font-bold '>{title}</h1>
 					<p className='text-sm'>{description}</p>
 				</div>
-			</div>
+			</motion.div>
 			<AnimatePresence>
 				{isModalOpen && (
 					<motion.div
-						className='backdrop-blur-sm fixed inset-0 bg-dark/50 flex justify-center items-center z-[9999] modal-overlay'
+						className='backdrop-blur-sm fixed inset-0 bg-dark/50 flex justify-center items-center z-[9999] modal-overlay cursor-pointer'
 						onClick={handleModalClick}
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
