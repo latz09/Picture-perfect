@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import hero from '../../public/images/inside-of-building.jpg';
+import hero from '../../public/images/inside-of-building-2.jpg';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const FrameAnythingHero = () => {
@@ -25,10 +25,10 @@ const FrameAnythingHero = () => {
 	};
 
 	// Phrase for animation
-	const phrase = ['We', 'frame', 'everything.'];
+	const phrase = ['We', 'Frame', 'Everything.'];
 
 	return (
-		<div className='relative h-[55vh] md:h-[75vh] shadow-lg shadow-primary/40 overflow-hidden'>
+		<div className='relative h-[60vh] md:h-[80vh] lg:h-[85vh] shadow-lg shadow-primary/40 overflow-hidden'>
 			<div className='absolute top-0 left-0 w-full h-full z-0'>
 				<Image
 					src={hero}
@@ -36,19 +36,20 @@ const FrameAnythingHero = () => {
 					fill
 					style={{
 						objectFit: 'cover',
-						objectPosition: 'left',
+						objectPosition: 'right',
 					}}
 				/>
 			</div>
 			<div className='relative flex justify-center items-center h-full bg-gradient-to-b from-dark/0 via-dark/70 to-dark/0 z-10'>
 				<div className='grid gap-4 text-center tracking-widest'>
 					<AnimatePresence>
-						<h1 className='text-5xl md:text-7xl font-robotoslab text-white'>
+						<h1 className='text-5xl md:text-7xl font-robotoslab text-white px-4 md:px-0'>
 							<motion.div
 								variants={container}
 								initial='hidden'
 								whileInView='show'
 								exit='exit'
+								viewport={{ once: true }}
 								className='flex flex-wrap lg:justify-center text-light'
 							>
 								{phrase.map((word, index) => (

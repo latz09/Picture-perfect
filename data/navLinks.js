@@ -12,10 +12,10 @@ export const navLinks = [
         name: 'About Us',
         link: '/about-us',
     },
-    {
-        name: 'Recent Work',
-        link: '/recent-work',
-    },
+    // {
+    //     name: 'Recent Work',
+    //     link: '/recent-work',
+    // },
 
 
 ];
