@@ -36,7 +36,7 @@ const FrameAnythingHero = () => {
 					fill
 					style={{
 						objectFit: 'cover',
-						objectPosition: 'right',
+						objectPosition: 'left',
 					}}
 				/>
 			</div>
